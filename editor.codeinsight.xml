@@ -1,0 +1,12 @@
+<application>
+  <component name="Go">
+    <option name="renameSearchInCommentsForType" value="false" />
+    <option name="renameSearchInCommentsForVariable" value="false" />
+    <option name="renameSearchNonCodeForVariable" value="true" />
+  </component>
+  <component name="GoFoldingSettings">
+    <option name="isOneLineReturns" value="false" />
+    <option name="isOneLinePanics" value="false" />
+    <option name="isFmtStrings" value="false" />
+  </component>
+</application>

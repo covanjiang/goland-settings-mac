@@ -1,0 +1,72 @@
+<application>
+  <component name="AppStorage">
+    <option name="newTranslationDialogHeight" value="613" />
+    <option name="newTranslationDialogWidth" value="1050" />
+    <option name="newTranslationDialogX" value="267" />
+    <option name="newTranslationDialogY" value="218" />
+    <histories>
+      <item value="The error built-in interface type is the conventional interface for&#10; representing an error condition, with the nil value representing no error." />
+      <item value="Indicator" />
+      <item value="We don't want the entry's metadata to be quoted and escaped (if it's&#10;&#9; encoded as strings), which means that we can't use the JSON encoder. The&#10;&#9; simplest option is to use the memory encoder and fmt.Fprint.&#10;&#9;&#10;&#9; If this ever becomes a performance bottleneck, we can implement&#10;&#9; ArrayEncoder for our plain-text format." />
+      <item value="Configure the primitive representations of common complex types. For&#10;&#9; example, some users may want all time.Times serialized as floating-point&#10;&#9; seconds since epoch, while others may prefer ISO8601 strings." />
+      <item value="defines the key to use when callers want to remove a key from log output." />
+      <item value="relative path" />
+      <item value="et rotate daily (chainable). Must be called before the first log message is" />
+      <item value="Set file log saving hours, if file is expired, will be deleted now." />
+      <item value="Word Date" />
+      <item value="Indent appends to dst an indented form of the JSON-encoded src. Each element in a JSON object or array begins on a new, indented line beginning with prefix followed by one or more copies of indent according to the indentation nesting. The data appended to dst does not begin with the prefix nor any indentation, to make it easier to embed inside other formatted JSON data. Although leading space characters (space, tab, carriage return, newline) at the beginning of src are dropped, trailing space characters at the end of src are preserved and copied to dst. For example, if src has no trailing spaces, neither will dst; if src ends in a trailing newline, so will dst." />
+      <item value="external action" />
+      <item value="defines the functions clients need to perform unary and&#10; streaming RPCs.  It is implemented by ClientConn, and is only intended to&#10; be referenced by generated code." />
+      <item value="ddFunc adds a func to the Cron to be run on the given schedule.&#10; The spec is parsed using the time zone of this Cron instance as the default.&#10; An opaque ID is returned that can be used to later remove it." />
+      <item value="Campaign" />
+      <item value="must start a consumer loop of ConsumerGroupClaim's Messages()." />
+      <item value="For each of the assigned claims the handler's ConsumeClaim() function is then called&#10;&#9;    in a separate goroutine which requires it to be thread-safe. Any state must be carefully protected" />
+      <item value="Please note, that once a rebalance is triggered, sessions must be completed within&#10;&#9; Config.Consumer.Group.Rebalance.Timeout. This means that ConsumeClaim() functions must exit&#10;&#9; as quickly as possible to allow time for Cleanup() and the final offset commit. If the timeout&#10;&#9; is exceeded, the consumer will be removed from the group by Kafka, which will cause offset&#10;&#9; commit failures." />
+      <item value="Once all the ConsumeClaim() loops have exited, the handler's Cleanup() hook is called&#10;&#9;    to allow the user to perform any final tasks before a rebalance." />
+      <item value="The session will persist until one of the ConsumeClaim() functions exits. This can be either when the&#10;&#9;    parent context is cancelled or when a server-side rebalance cycle is initiated." />
+      <item value="For each of the assigned claims the handler's ConsumeClaim() function is then called&#10;&#9;    in a separate goroutine which requires it to be thread-safe. Any state must be carefully protected&#10;&#9;    from concurrent readswrites." />
+      <item value="must start a consumer loop of ConsumerGroupClaim's Messages().&#10;&#9; Once the Messages() channel is closed, the Handler must finish its processing&#10;&#9; loop and exit." />
+      <item value=" Consume joins a cluster of consumers for a given list of topics and&#10;&#9; starts a blocking ConsumerGroupSession through the ConsumerGroupHandler.&#10;&#9;&#10;&#9; The life-cycle of a session is represented by the following steps:&#10;&#9;&#10;&#9; 1. The consumers join the group (as explained in https:kafka.apache.orgdocumentationintro_consumers)&#10;&#9;    and is assigned their &quot;fair share&quot; of partitions, aka 'claims'.&#10;&#9; 2. Before processing starts, the handler's Setup() hook is called to notify the user&#10;&#9;    of the claims and allow any necessary preparation or alteration of state.&#10;&#9; 3. For each of the assigned claims the handler's ConsumeClaim() function is then called&#10;&#9;    in a separate goroutine which requires it to be thread-safe. Any state must be carefully protected&#10;&#9;    from concurrent readswrites.&#10;&#9; 4. The session will persist until one of the ConsumeClaim() functions exits. This can be either when the&#10;&#9;    parent context is cancelled or when a server-side rebalance cycle is initiated.&#10;&#9; 5. Once all the ConsumeClaim() loops have exited, the handler's Cleanup() hook is called&#10;&#9;    to allow the user to perform any final tasks before a rebalance.&#10;&#9; 6. Finally, marked offsets are committed one last time before claims are released.&#10;&#9;&#10;&#9; Please note, that once a rebalance is triggered, sessions must be completed within&#10;&#9; Config.Consumer.Group.Rebalance.Timeout. This means that ConsumeClaim() functions must exit&#10;&#9; as quickly as possible to allow time for Cleanup() and the final offset commit. If the timeout&#10;&#9; is exceeded, the consumer will be removed from the group by Kafka, which will cause offset&#10;&#9; commit failures.&#10;&#9; This method should be called inside an infinite loop, when a&#10;&#9; server-side rebalance happens, the consumer session will need to be&#10;&#9; recreated to get the new claims." />
+      <item value="`Consume` should be called inside an infinite loop, when a&#10;&#9;&#9;&#9; server-side rebalance happens, the consumer session will need to be&#10;&#9;&#9;&#9; recreated to get the new claims" />
+      <item value="Background returns a non-nil, empty Context. It is never canceled, has no&#10; values, and has no deadline. It is typically used by the main function,&#10; initialization, and tests, and as the top-level Context for incoming&#10; requests." />
+      <item value="WithCancel returns a copy of parent with a new Done channel. The returned&#10; context's Done channel is closed when the returned cancel function is called&#10; or when the parent context's Done channel is closed, whichever happens first.&#10;&#10; Canceling this context releases resources associated with it, so code should&#10; call cancel as soon as the operations running in this Context complete." />
+      <item value="returns a copy of parent with a new Done channel. The returned&#10; context's Done channel is closed when the returned cancel function is called&#10; or when the parent context's Done channel is closed, whichever happens first.&#10;&#10; Canceling this context releases resources associated with it, so code should&#10; call cancel as soon as the operations running in this Context complete." />
+      <item value="Getwd returns a rooted path name corresponding to the&#10; current directory. If the current directory can be&#10; reached via multiple paths (due to symbolic links),&#10; Getwd may return any one of them." />
+      <item value="Getwd returns a rooted path name corresponding to the current directory. If the current directory can be reached via multiple paths (due to symbolic links), Getwd may return any one of them." />
+      <item value="returns the reverse order for data." />
+      <item value="Pop removes and returns the minimum element (according to Less) from the heap.&#10; The complexity is O(log n) where n = h.Len().&#10; Pop is equivalent to Remove(h, 0)." />
+      <item value="SearchInts searches for x in a sorted slice of ints and returns the index&#10; as specified by Search. The return value is the index to insert x if x is&#10; not present (it could be len(a)).&#10; The slice must be sorted in ascending order." />
+      <item value="Fix re-establishes the heap ordering after the element at index i has changed its value.&#10; Changing the value of the element at index i and then calling Fix is equivalent to,&#10; but less expensive than, calling Remove(h, i) followed by a Push of the new value.&#10; The complexity is O(log n) where n = h.Len()." />
+      <item value="IntSlice attaches the methods of Interface to []int, sorting in increasing order." />
+      <item value="Scan scans text read from standard input, storing successive&#10; space-separated values into successive arguments. Newlines count&#10; as space. It returns the number of items successfully scanned.&#10; If that is less than the number of arguments, err will report why." />
+      <item value="is a variable-sized buffer of bytes with Read and Write methods.&#10; The zero value for Buffer is an empty buffer ready to use." />
+      <item value="Marshal traverses the value v recursively.&#10; If an encountered value implements the Marshaler interface&#10; and is not a nil pointer, Marshal calls its MarshalJSON method&#10; to produce JSON. If no MarshalJSON method is present but the&#10; value implements encoding.TextMarshaler instead, Marshal calls&#10; its MarshalText method and encodes the result as a JSON string.&#10; The nil pointer exception is not strictly necessary&#10; but mimics a similar, necessary exception in the behavior of&#10; UnmarshalJSON." />
+      <item value=" Marshal returns the JSON encoding of v.&#10;" />
+      <item value="adds the elements of the argument map to the template's function map.&#10; It panics if a value in the map is not a function with appropriate return&#10; type. However, it is legal to overwrite elements of the map. The return&#10; value is the template, so calls can be chained." />
+      <item value="FuncMap is the type of the map defining the mapping from names to functions.&#10; Each function must have either a single return value, or two return values of&#10; which the second has type error. In that case, if the second (error)&#10; return value evaluates to non-nil during execution, execution terminates and&#10; Execute returns that error." />
+      <item value="checks the Content-Type to select a binding engine automatically,&#10; Depending the &quot;Content-Type&quot; header different bindings are used:&#10;     &quot;applicationjson&quot; --&gt; JSON binding&#10;     &quot;applicationxml&quot;  --&gt; XML binding&#10; otherwise --&gt; returns an error&#10; It parses the request's body as JSON if Content-Type == &quot;applicationjson&quot; using JSON or XML as a JSON input.&#10; It decodes the json payload into the struct specified as a pointer.&#10; Like c.Bind() but this method does not set the response status code to 400 and abort if the json is not valid." />
+      <item value=" set log mode, `true` for detailed logs, `false` for no log, default, will only print error logs" />
+      <item value="use singular table by default" />
+      <item value="takes a single key and unmarshals it into a Struct." />
+      <item value="Viper is a prioritized configuration registry. It&#10; maintains a set of configuration sources, fetches&#10; values to populate those, and provides them according&#10; to the source's priority." />
+      <item value="itle returns a copy of the string s with all Unicode letters that begin words&#10; mapped to their Unicode title case." />
+      <item value="Replace returns a copy of the string s with the first n non-overlapping instances of old replaced by new. If old is empty, it matches at the beginning of the string and after each UTF-8 sequence, yielding up to k+1 replacements for a k-rune string. If n &lt; 0, there is no limit on the number of replacements.&#10;" />
+      <item value="Parse parses flag definitions from the argument list, which should not&#10; include the command name. Must be called after all flags in the FlagSet&#10; are defined and before flags are accessed by the program.&#10; The return value will be ErrHelp if -help or -h were set but not defined." />
+      <item value="NewFlagSet returns a new, empty flag set with the specified name and&#10; error handling property. If the name is not empty, it will be printed&#10; in the default usage message and in error messages." />
+      <item value="These routines do not take a format string" />
+      <item value=" Sprintf formats according to a format specifier and returns the resulting string.&#10;" />
+    </histories>
+    <option name="languageScores">
+      <map>
+        <entry key="CHINESE" value="39" />
+        <entry key="ENGLISH" value="40" />
+      </map>
+    </option>
+  </component>
+  <component name="Cache">
+    <option name="lastTrimTime" value="1660885910455" />
+  </component>
+  <component name="Settings">
+    <option name="keepFormat" value="true" />
+  </component>
+</application>
