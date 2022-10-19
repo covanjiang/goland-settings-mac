@@ -5,6 +5,7 @@
     <option name="newTranslationDialogX" value="267" />
     <option name="newTranslationDialogY" value="218" />
     <histories>
+      <item value="Select" />
       <item value="The error built-in interface type is the conventional interface for&#10; representing an error condition, with the nil value representing no error." />
       <item value="Indicator" />
       <item value="We don't want the entry's metadata to be quoted and escaped (if it's&#10;&#9; encoded as strings), which means that we can't use the JSON encoder. The&#10;&#9; simplest option is to use the memory encoder and fmt.Fprint.&#10;&#9;&#10;&#9; If this ever becomes a performance bottleneck, we can implement&#10;&#9; ArrayEncoder for our plain-text format." />
@@ -54,7 +55,6 @@
       <item value="Parse parses flag definitions from the argument list, which should not&#10; include the command name. Must be called after all flags in the FlagSet&#10; are defined and before flags are accessed by the program.&#10; The return value will be ErrHelp if -help or -h were set but not defined." />
       <item value="NewFlagSet returns a new, empty flag set with the specified name and&#10; error handling property. If the name is not empty, it will be printed&#10; in the default usage message and in error messages." />
       <item value="These routines do not take a format string" />
-      <item value=" Sprintf formats according to a format specifier and returns the resulting string.&#10;" />
     </histories>
     <option name="languageScores">
       <map>
