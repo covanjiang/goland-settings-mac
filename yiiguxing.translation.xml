@@ -69,4 +69,23 @@
   <component name="Settings">
     <option name="keepFormat" value="true" />
   </component>
+  <component name="Translation.Cache">
+    <option name="lastTrimTime" value="1670497661803" />
+  </component>
+  <component name="Translation.Settings">
+    <option name="primaryLanguage" value="CHINESE" />
+    <option name="translator" value="MICROSOFT" />
+  </component>
+  <component name="Translation.States">
+    <histories>
+      <item value="AddFunc adds a func to the Cron to be run on the given schedule. The spec is parsed using the time zone of this Cron instance as the default. An opaque ID is returned that can be used to later remove it." />
+      <item value="The spec is parsed using the time zone of this Cron instance as the default." />
+    </histories>
+    <option name="languageScores">
+      <map>
+        <entry key="CHINESE" value="2" />
+        <entry key="ENGLISH" value="3" />
+      </map>
+    </option>
+  </component>
 </application>
