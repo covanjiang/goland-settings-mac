@@ -78,6 +78,7 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="is the thing to run when the Schedule is activated." />
       <item value="If there are no entries yet, just sleep - it still handles new entries and stop requests." />
       <item value="reports whether t represents the zero time instant," />
       <item value="returns a copy of the current cron entry list." />
@@ -86,8 +87,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="5" />
-        <entry key="ENGLISH" value="6" />
+        <entry key="CHINESE" value="6" />
+        <entry key="ENGLISH" value="7" />
       </map>
     </option>
   </component>
