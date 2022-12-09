@@ -78,6 +78,7 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="Applications should take care to call Sync before exiting." />
       <item value="ReadString reads until the first occurrence of delim in the input, returning a string containing the data up to and including the delimiter. If ReadString encounters an error before finding a delimiter, it returns the data read before the error and the error itself (often io.EOF). ReadString returns err != nil if and only if the returned data does not end in delim. For simple uses, a Scanner may be more convenient" />
       <item value="is the thing to run when the Schedule is activated." />
       <item value="If there are no entries yet, just sleep - it still handles new entries and stop requests." />
