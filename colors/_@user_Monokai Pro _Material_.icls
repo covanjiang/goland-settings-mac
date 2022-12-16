@@ -4,7 +4,7 @@
     <property name="created">2021-12-03T16:23:52</property>
     <property name="ide">GoLand</property>
     <property name="ideVersion">2021.2.4.0.0</property>
-    <property name="modified">2022-10-18T10:50:00</property>
+    <property name="modified">2022-12-16T16:05:25</property>
     <property name="originalScheme">Monokai Pro (Material)</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.3" />
@@ -41,7 +41,7 @@
     <option name="DIAGRAM_REALIZATION_EDGE" value="ff6188" />
     <option name="DIFF_SEPARATORS_BACKGROUND" value="627982" />
     <option name="DIFF_SEPARATORS_TOP_BORDER" value="1b262b" />
-    <option name="DOCUMENTATION_COLOR" value="ffffff" />
+    <option name="DOCUMENTATION_COLOR" value="0" />
     <option name="DOC_COMMENT_GUIDE" value="5b595c" />
     <option name="DOC_COMMENT_LINK" value="78dce8" />
     <option name="ERROR_HINT" value="781732" />
