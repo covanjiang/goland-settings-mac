@@ -78,6 +78,8 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="stops the gRPC server. It immediately closes all open connections and listeners. It cancels all active RPCs on the server side and the corresponding pending RPCs on the client side will get notified by connection errors." />
+      <item value="stops the gRPC server gracefully. It stops the server from accepting new connections and RPCs and blocks until all the pending RPCs are finished." />
       <item value="64-bit value: high 32 bits are counter, low 32 bits are waiter count. 64-bit atomic operations require 64-bit alignment, but 32-bit compilers do not ensure it. So we allocate 12 bytes and then use the aligned 8 bytes in them as state, and the other 4 as storage for the sema." />
       <item value="returns pointers to the state and sema fields stored within wg.state1." />
       <item value="keeps track of any number of entries, invoking the associated func as specified by the schedule. It may be started, stopped, and the entries may be inspected while running." />
@@ -95,8 +97,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="13" />
-        <entry key="ENGLISH" value="14" />
+        <entry key="CHINESE" value="15" />
+        <entry key="ENGLISH" value="16" />
       </map>
     </option>
   </component>
