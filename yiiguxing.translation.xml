@@ -69,4 +69,18 @@
   <component name="Settings">
     <option name="keepFormat" value="true" />
   </component>
+  <component name="Translation.Cache">
+    <option name="lastTrimTime" value="1672203777832" />
+  </component>
+  <component name="Translation.States">
+    <histories>
+      <item value="Verify that this generated code is sufficiently up-to-date." />
+    </histories>
+    <option name="languageScores">
+      <map>
+        <entry key="CHINESE" value="1" />
+        <entry key="ENGLISH" value="1" />
+      </map>
+    </option>
+  </component>
 </application>
