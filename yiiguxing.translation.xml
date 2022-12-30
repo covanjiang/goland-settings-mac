@@ -72,8 +72,12 @@
   <component name="Translation.Cache">
     <option name="lastTrimTime" value="1672203777832" />
   </component>
+  <component name="Translation.Settings">
+    <option name="translator" value="MICROSOFT" />
+  </component>
   <component name="Translation.States">
     <histories>
+      <item value="but accepts a shorthand letter that can be used after a single dash." />
       <item value="Verify that this generated code is sufficiently up-to-date." />
     </histories>
     <option name="languageScores">
