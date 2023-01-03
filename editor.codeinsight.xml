@@ -1,7 +1,6 @@
 <application>
   <component name="Go">
     <option name="renameSearchInCommentsForType" value="false" />
-    <option name="renameSearchInCommentsForVariable" value="false" />
     <option name="renameSearchNonCodeForFunction" value="true" />
     <option name="renameSearchNonCodeForVariable" value="true" />
   </component>
