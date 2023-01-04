@@ -3,6 +3,9 @@
     <keyboard-shortcut first-keystroke="alt 2" />
   </action>
   <action id="ActivateFindToolWindow" />
+  <action id="CodeCompletionGroup">
+    <keyboard-shortcut first-keystroke="alt space" />
+  </action>
   <action id="FileStructurePopup">
     <keyboard-shortcut first-keystroke="meta f12" />
     <keyboard-shortcut first-keystroke="meta 3" />
