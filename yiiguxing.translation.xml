@@ -77,6 +77,7 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="Benchmark" />
       <item value="Leverage the exponential backoff algorithm" />
       <item value="Printf must have the same semantics as log.Printf." />
       <item value="ExpiryDuration is a period for the scavenger goroutine to clean up those expired workers, the scavenger scans all workers every `ExpiryDuration` and clean up those workers that haven't been used for more than `ExpiryDuration`." />
@@ -92,8 +93,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="10" />
-        <entry key="ENGLISH" value="11" />
+        <entry key="CHINESE" value="11" />
+        <entry key="ENGLISH" value="12" />
       </map>
     </option>
   </component>
