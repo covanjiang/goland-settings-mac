@@ -77,6 +77,11 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="Leverage the exponential backoff algorithm" />
+      <item value="Printf must have the same semantics as log.Printf." />
+      <item value="ExpiryDuration is a period for the scavenger goroutine to clean up those expired workers, the scavenger scans all workers every `ExpiryDuration` and clean up those workers that haven't been used for more than `ExpiryDuration`." />
+      <item value="When DisablePurge is true, workers are not purged and are resident." />
+      <item value="workers are not purged and are resident." />
       <item value="returns the number read, whether the value is NULL and the number of bytes read" />
       <item value="fluctuation" />
       <item value="interactive" />
@@ -87,8 +92,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="5" />
-        <entry key="ENGLISH" value="6" />
+        <entry key="CHINESE" value="10" />
+        <entry key="ENGLISH" value="11" />
       </map>
     </option>
   </component>
