@@ -70,13 +70,14 @@
     <option name="keepFormat" value="true" />
   </component>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1672735376430" />
+    <option name="lastTrimTime" value="1675583729719" />
   </component>
   <component name="Translation.Settings">
     <option name="translator" value="MICROSOFT" />
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="generate a base64url-encoded random key of given length in byte" />
       <item value="otherwise, we'll have to keep them blocked and wait for at least one worker to be put back into pool." />
       <item value="if the worker queue is empty and we don't run out of the pool capacity, then just spawn a new worker goroutine." />
       <item value="Note that you are allowed to call Pool.Submit() from the current Pool.Submit(), but what calls for special attention is that you will get blocked with the latest Pool.Submit() call once the current Pool runs out of its capacity, and to avoid this, you should instantiate a Pool with ants.WithNonblocking(true)." />
@@ -105,8 +106,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="24" />
-        <entry key="ENGLISH" value="25" />
+        <entry key="CHINESE" value="25" />
+        <entry key="ENGLISH" value="26" />
       </map>
     </option>
   </component>
