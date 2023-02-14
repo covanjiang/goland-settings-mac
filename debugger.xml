@@ -1,7 +1,9 @@
 <application>
   <component name="XDebuggerSettings">
     <data-views />
-    <general />
+    <general>
+      <run-to-cursor-gesture>false</run-to-cursor-gesture>
+    </general>
     <debuggers>
       <debugger id="javascript">
         <configuration>
