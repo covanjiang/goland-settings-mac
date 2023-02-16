@@ -77,6 +77,11 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="The same as above, but now as a histogram, and only for the normal distribution. The histogram features both conventional buckets as well as sparse buckets, the latter needed for the experimental native histograms (ingested by a Prometheus server v2.40 with the corresponding feature flag enabled). The conventional buckets are targeted to the parameters of the normal distribution, with 20 buckets centered on the mean, each half-sigma wide. The sparse buckets are always centered on zero, with a growth factor of one bucket to the next of (at most) 1.1. (The precise factor is 2^2^-3 = 1.0905077...)" />
+      <item value="The duration of the rate oscillation period" />
+      <item value="the uniform distribution" />
+      <item value="registry" />
+      <item value="Create a summary to track fictional interservice RPC latencies for three distinct services with different latency distributions. These services are differentiated via a &quot;service&quot; label." />
       <item value="The current value of the average. After adding with Add(), this is updated to reflect the average of all values seen thus far." />
       <item value="A SimpleEWMA represents the exponentially weighted moving average of a series of numbers. It WILL have different behavior than the VariableEWMA for multiple reasons. It has no warm-up period and it uses a constant decay. These properties let it use less memory. It will also behave differently when it's equal to zero, which is assumed to mean uninitialized, so if a value is likely to actually become zero over time, then any non-zero value will cause a sharp jump instead of a small change. However, note that this takes a long time, and the value may just decays to a stable value that's close to zero, but which won't be mistaken for uninitialized. See http:play.golang.orgplitxBDr_RC for example." />
       <item value="VariableEWMA represents the exponentially weighted moving average of a series of numbers. Unlike SimpleEWMA, it supports a custom age, and thus uses more memory." />
@@ -120,8 +125,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="40" />
-        <entry key="ENGLISH" value="41" />
+        <entry key="CHINESE" value="45" />
+        <entry key="ENGLISH" value="46" />
       </map>
     </option>
   </component>
