@@ -77,6 +77,7 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="Send first packet of payload together with request, in favor of small requests." />
       <item value="Commands lists the available commands and help topics. The order here is the order in which they are printed by 'go help'. Note that subcommands are in general best avoided." />
       <item value="The following are neccesary as they register handlers in their init functions." />
       <item value="The server is not started at this point." />
@@ -126,12 +127,11 @@
       <item value="fluctuation" />
       <item value="interactive" />
       <item value="interval" />
-      <item value="instructs the various shell completion implementations to prioritize the named flag when performing completion, and causes your command to report an error if invoked without the flag." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="52" />
-        <entry key="ENGLISH" value="53" />
+        <entry key="CHINESE" value="53" />
+        <entry key="ENGLISH" value="54" />
       </map>
     </option>
   </component>
