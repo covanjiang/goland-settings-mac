@@ -78,6 +78,7 @@
   <component name="Translation.States">
     <histories>
       <item value="Send first packet of payload together with request, in favor of small requests." />
+      <item value="Send first packet of payload together with request, in favor of small requests" />
       <item value="Commands lists the available commands and help topics. The order here is the order in which they are printed by 'go help'. Note that subcommands are in general best avoided." />
       <item value="The following are neccesary as they register handlers in their init functions." />
       <item value="The server is not started at this point." />
@@ -126,12 +127,11 @@
       <item value="returns the number read, whether the value is NULL and the number of bytes read" />
       <item value="fluctuation" />
       <item value="interactive" />
-      <item value="interval" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="53" />
-        <entry key="ENGLISH" value="54" />
+        <entry key="CHINESE" value="55" />
+        <entry key="ENGLISH" value="56" />
       </map>
     </option>
   </component>
