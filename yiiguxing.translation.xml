@@ -70,13 +70,14 @@
     <option name="keepFormat" value="true" />
   </component>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1676987972035" />
+    <option name="lastTrimTime" value="1677907962140" />
   </component>
   <component name="Translation.Settings">
     <option name="translator" value="MICROSOFT" />
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="Logfile" />
       <item value="Send first packet of payload together with request, in favor of small requests." />
       <item value="Send first packet of payload together with request, in favor of small requests" />
       <item value="Commands lists the available commands and help topics. The order here is the order in which they are printed by 'go help'. Note that subcommands are in general best avoided." />
@@ -126,12 +127,11 @@
       <item value="workers are not purged and are resident." />
       <item value="returns the number read, whether the value is NULL and the number of bytes read" />
       <item value="fluctuation" />
-      <item value="interactive" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="55" />
-        <entry key="ENGLISH" value="56" />
+        <entry key="CHINESE" value="56" />
+        <entry key="ENGLISH" value="57" />
       </map>
     </option>
   </component>
