@@ -10,6 +10,7 @@
       <w>ifnull</w>
       <w>kuai</w>
       <w>kuaishou</w>
+      <w>mapstructure</w>
       <w>ormer</w>
       <w>preg</w>
       <w>qianchuan</w>
