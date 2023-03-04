@@ -77,6 +77,8 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="scene" />
+      <item value="Report Recent Consumption" />
       <item value="Logfile" />
       <item value="Send first packet of payload together with request, in favor of small requests." />
       <item value="Send first packet of payload together with request, in favor of small requests" />
@@ -125,13 +127,11 @@
       <item value="ExpiryDuration is a period for the scavenger goroutine to clean up those expired workers, the scavenger scans all workers every `ExpiryDuration` and clean up those workers that haven't been used for more than `ExpiryDuration`." />
       <item value="When DisablePurge is true, workers are not purged and are resident." />
       <item value="workers are not purged and are resident." />
-      <item value="returns the number read, whether the value is NULL and the number of bytes read" />
-      <item value="fluctuation" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="56" />
-        <entry key="ENGLISH" value="57" />
+        <entry key="CHINESE" value="58" />
+        <entry key="ENGLISH" value="59" />
       </map>
     </option>
   </component>
