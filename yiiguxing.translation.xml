@@ -77,6 +77,9 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="tries to be 100% compatible with standard library behavior" />
+      <item value="create nested file" />
+      <item value="IsNotExist returns a boolean indicating whether the error is known to report that a file or directory does not exist. It is satisfied by ErrNotExist as well as some syscall errors. This function predates errors.Is. It only supports errors returned by the os package. New code should use errors.Is(err, fs.ErrNotExist)." />
       <item value="Executable returns the path name for the executable that started the current process. There is no guarantee that the path is still pointing to the correct executable. If a symlink was used to start the process, depending on the operating system, the result might be the symlink or the path it pointed to. If a stable result is needed, pathfilepath.EvalSymlinks might help. Executable returns an absolute path unless an error occurred. The main use case is finding resources located relative to an executable." />
       <item value="Force to use the directory where the binary file is located as data directory" />
       <item value="Cobra supports local flags which will only run when this command is called directly, e.g.: serverCmd.Flags().BoolP(&quot;toggle&quot;, &quot;t&quot;, false, &quot;Help message for toggle&quot;)" />
@@ -124,14 +127,11 @@
       <item value="PreAlloc indicates whether to make memory pre-allocation when initializing Pool." />
       <item value="since otherwise the sender might be dragged down if the receiver is CPU-bound." />
       <item value="This switches context from sender to receiver immediately, which results in higher performance (under go1.5 at least)." />
-      <item value="workerChanCap determines whether the channel of a worker should be a buffered channel to get the best performance. Inspired by fasthttp at" />
-      <item value="goWorker is the actual executor who runs the tasks, it starts a goroutine that accepts tasks and performs function calls." />
-      <item value="workerCache speeds up the obtainment of a usable worker in function:retrieveWorker." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="64" />
-        <entry key="ENGLISH" value="65" />
+        <entry key="CHINESE" value="68" />
+        <entry key="ENGLISH" value="69" />
       </map>
     </option>
   </component>
