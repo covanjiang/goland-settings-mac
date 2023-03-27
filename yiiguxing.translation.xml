@@ -77,6 +77,7 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="RemoveAll removes path and any children it contains. It removes everything it can but returns the first error it encounters. If the path does not exist, RemoveAll returns nil (no error). If there is an error, it will be of type PathError." />
       <item value="tries to be 100% compatible with standard library behavior" />
       <item value="create nested file" />
       <item value="IsNotExist returns a boolean indicating whether the error is known to report that a file or directory does not exist. It is satisfied by ErrNotExist as well as some syscall errors. This function predates errors.Is. It only supports errors returned by the os package. New code should use errors.Is(err, fs.ErrNotExist)." />
@@ -126,12 +127,11 @@
       <item value="retrieve" />
       <item value="PreAlloc indicates whether to make memory pre-allocation when initializing Pool." />
       <item value="since otherwise the sender might be dragged down if the receiver is CPU-bound." />
-      <item value="This switches context from sender to receiver immediately, which results in higher performance (under go1.5 at least)." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="68" />
-        <entry key="ENGLISH" value="69" />
+        <entry key="CHINESE" value="69" />
+        <entry key="ENGLISH" value="70" />
       </map>
     </option>
   </component>
