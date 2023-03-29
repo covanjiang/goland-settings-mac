@@ -77,6 +77,12 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="Double and clamp for next time." />
+      <item value="Add 10% jitter." />
+      <item value="Once Shutdown has been called on a server, it may not be reused; future calls to methods such as Serve will return ErrServerClosed." />
+      <item value="Shutdown does not attempt to close nor wait for hijacked connections such as WebSockets. The caller of Shutdown should separately notify such long-lived connections of shutdown and wait for them to close, if desired. See RegisterOnShutdown for a way to register shutdown notification functions." />
+      <item value="When Shutdown is called, Serve, ListenAndServe, and ListenAndServeTLS immediately return ErrServerClosed. Make sure the program doesn't exit and waits instead for Shutdown to return." />
+      <item value="Shutdown gracefully shuts down the server without interrupting any active connections. Shutdown works by first closing all open listeners, then closing all idle connections, and then waiting indefinitely for connections to return to idle and then shut down. If the provided context expires before the shutdown is complete, Shutdown returns the context's error, otherwise it returns any error returned from closing the Server's underlying Listener(s)." />
       <item value="The upper layer of the root directory is still the root directory. So &quot;..&quot; And &quot;.&quot; will be cleared for example 1. &quot;..&quot; or &quot;.&quot; =&gt; &quot;&quot; 2. &quot;.....&quot; or &quot;....&quot; =&gt; &quot;...&quot; 3. &quot;...x.&quot; or &quot;..x.&quot; =&gt; &quot;.x.&quot; 4. &quot;x\\y&quot; = &gt; &quot;zx&quot;" />
       <item value="RemoveAll removes path and any children it contains. It removes everything it can but returns the first error it encounters. If the path does not exist, RemoveAll returns nil (no error). If there is an error, it will be of type PathError." />
       <item value="tries to be 100% compatible with standard library behavior" />
@@ -121,17 +127,11 @@
       <item value="it must be enclosed in square brackets," />
       <item value="literal" />
       <item value="generate a base64url-encoded random key of given length in byte" />
-      <item value="otherwise, we'll have to keep them blocked and wait for at least one worker to be put back into pool." />
-      <item value="if the worker queue is empty and we don't run out of the pool capacity, then just spawn a new worker goroutine." />
-      <item value="Note that you are allowed to call Pool.Submit() from the current Pool.Submit(), but what calls for special attention is that you will get blocked with the latest Pool.Submit() call once the current Pool runs out of its capacity, and to avoid this, you should instantiate a Pool with ants.WithNonblocking(true)." />
-      <item value="recycleTime will be updated when putting a worker back into queue." />
-      <item value="retrieve" />
-      <item value="PreAlloc indicates whether to make memory pre-allocation when initializing Pool." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="70" />
-        <entry key="ENGLISH" value="71" />
+        <entry key="CHINESE" value="76" />
+        <entry key="ENGLISH" value="77" />
       </map>
     </option>
   </component>
