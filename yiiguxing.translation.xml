@@ -70,13 +70,14 @@
     <option name="keepFormat" value="true" />
   </component>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1679885187176" />
+    <option name="lastTrimTime" value="1680686213414" />
   </component>
   <component name="Translation.Settings">
     <option name="translator" value="MICROSOFT" />
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="Body is the request's body. For client requests, a nil body means the request has no body, such as a GET request. The HTTP Client's Transport is responsible for calling the Close method. For server requests, the Request Body is always non-nil but will return EOF immediately when no body is present. The Server will close the request body. The ServeHTTP Handler does not need to. Body must allow Read to be called concurrently with Close. In particular, calling Close should unblock a Read waiting for input." />
       <item value="Double and clamp for next time." />
       <item value="Add 10% jitter." />
       <item value="Once Shutdown has been called on a server, it may not be reused; future calls to methods such as Serve will return ErrServerClosed." />
@@ -126,12 +127,11 @@
       <item value="The zone specifies the scope of the literal IPv6 address as defined in RFC 4007." />
       <item value="it must be enclosed in square brackets," />
       <item value="literal" />
-      <item value="generate a base64url-encoded random key of given length in byte" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="76" />
-        <entry key="ENGLISH" value="77" />
+        <entry key="CHINESE" value="77" />
+        <entry key="ENGLISH" value="78" />
       </map>
     </option>
   </component>
