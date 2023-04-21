@@ -1,4 +1,7 @@
 <keymap version="1" name="macOS 通用快捷键" parent="Mac OS X 10.5+">
+  <action id="ActivateBitoToolWindow">
+    <keyboard-shortcut first-keystroke="meta m" />
+  </action>
   <action id="ActivateDatabaseToolWindow">
     <keyboard-shortcut first-keystroke="alt 2" />
   </action>
@@ -10,6 +13,7 @@
     <keyboard-shortcut first-keystroke="meta f12" />
     <keyboard-shortcut first-keystroke="meta 3" />
   </action>
+  <action id="MinimizeCurrentWindow" />
   <action id="SelectInProjectView">
     <keyboard-shortcut first-keystroke="alt 1" />
   </action>
