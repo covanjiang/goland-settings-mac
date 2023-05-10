@@ -70,13 +70,16 @@
     <option name="keepFormat" value="true" />
   </component>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1680686213414" />
+    <option name="lastTrimTime" value="1683703909712" />
   </component>
   <component name="Translation.Settings">
     <option name="translator" value="MICROSOFT" />
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="LocalTime determines if the time used for formatting the timestamps in backup files is the computer's local time. The default is to use UTC time." />
+      <item value="MaxAge is the maximum number of days to retain old log files based on the timestamp encoded in their filename. Note that a day is defined as 24 hours and may not exactly correspond to calendar days due to daylight savings, leap seconds, etc. The default is not to remove old log files based on age." />
+      <item value="MaxSize is the maximum size in megabytes of the log file before it gets rotated. It defaults to 100 megabytes." />
       <item value="Pending" />
       <item value="Body is the request's body. For client requests, a nil body means the request has no body, such as a GET request. The HTTP Client's Transport is responsible for calling the Close method. For server requests, the Request Body is always non-nil but will return EOF immediately when no body is present. The Server will close the request body. The ServeHTTP Handler does not need to. Body must allow Read to be called concurrently with Close. In particular, calling Close should unblock a Read waiting for input." />
       <item value="Double and clamp for next time." />
@@ -124,14 +127,11 @@
       <item value="For TCP, UDP and IP networks, if the host is empty or a literal unspecified IP address, as in &quot;:80&quot;, &quot;0.0.0.0:80&quot; or &quot;[::]:80&quot; for TCP and UDP, &quot;&quot;, &quot;0.0.0.0&quot; or &quot;::&quot; for IP, the local system is assumed." />
       <item value="For IP networks, the network must be &quot;ip&quot;, &quot;ip4&quot; or &quot;ip6&quot; followed by a colon and a literal protocol number or a protocol name, and the address has the form &quot;host&quot;. The host must be a literal IP address or a literal IPv6 address with zone. It depends on each operating system how the operating system behaves with a non-well known protocol number such as &quot;0&quot; or &quot;255&quot;." />
       <item value="When using TCP, and the host resolves to multiple IP addresses, Dial will try each IP address in order until one succeeds." />
-      <item value="The functions JoinHostPort and SplitHostPort manipulate a pair of host and port in this form." />
-      <item value="The zone specifies the scope of the literal IPv6 address as defined in RFC 4007." />
-      <item value="it must be enclosed in square brackets," />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="78" />
-        <entry key="ENGLISH" value="79" />
+        <entry key="CHINESE" value="81" />
+        <entry key="ENGLISH" value="82" />
       </map>
     </option>
   </component>
