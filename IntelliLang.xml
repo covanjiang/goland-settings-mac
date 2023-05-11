@@ -10,5 +10,10 @@
       <single-file value="true" />
       <place disabled="true"><![CDATA[goStringLiteralThatMatches(" *INSERT +((OR +)?IGNORE +)?INTO .*")]]></place>
     </injection>
+    <injection language="SQL" injector-id="go">
+      <display-name>SQL select</display-name>
+      <single-file value="true" />
+      <place disabled="true"><![CDATA[goStringLiteralThatMatches(" *SELECT .*FROM .*")]]></place>
+    </injection>
   </component>
 </application>
