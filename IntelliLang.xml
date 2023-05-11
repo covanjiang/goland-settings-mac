@@ -5,5 +5,10 @@
       <single-file value="true" />
       <place disabled="true"><![CDATA[goStringLiteralThatMatches(" *CREATE +((TEMP(ORARY)?|(GLOBAL +TEMPORARY)) +)?TABLE .*\\(.*")]]></place>
     </injection>
+    <injection language="SQL" injector-id="go">
+      <display-name>SQL insert</display-name>
+      <single-file value="true" />
+      <place disabled="true"><![CDATA[goStringLiteralThatMatches(" *INSERT +((OR +)?IGNORE +)?INTO .*")]]></place>
+    </injection>
   </component>
 </application>
