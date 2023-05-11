@@ -77,6 +77,9 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="Minimum number of idle connections which is useful when establishing new connection is slow. Default is 0. the idle connections are not closed by default." />
+      <item value="Maximum number of idle connections. Default is 0. the idle connections are not closed by default." />
+      <item value="Default is 10 connections per every CPU as reported by runtime.NumCPU." />
       <item value="Function to replace the table name and remove AUTO_INCREMENT" />
       <item value="LocalTime determines if the time used for formatting the timestamps in backup files is the computer's local time. The default is to use UTC time." />
       <item value="MaxAge is the maximum number of days to retain old log files based on the timestamp encoded in their filename. Note that a day is defined as 24 hours and may not exactly correspond to calendar days due to daylight savings, leap seconds, etc. The default is not to remove old log files based on age." />
@@ -124,14 +127,11 @@
       <item value="NewMovingAverage constructs a MovingAverage that computes an average with the desired characteristics in the moving window or exponential decay. If no age is given, it constructs a default exponentially weighted implementation that consumes minimal memory. The age is related to the decay factor alpha by the formula given for the DECAY constant. It signifies the average age of the samples as time goes to infinity." />
       <item value="DialContext specifies the dial function for creating unencrypted TCP connections. If DialContext is nil (and the deprecated Dial below is also nil), then the transport dials using package net. DialContext runs concurrently with calls to RoundTrip. A RoundTrip call that initiates a dial may end up using a connection dialed previously when the earlier connection becomes idle before the later DialContext completes." />
       <item value="DialContext connects to the address on the named network using the provided context. The provided Context must be non-nil. If the context expires before the connection is complete, an error is returned. Once successfully connected, any expiration of the context will not affect the connection. When using TCP, and the host in the address parameter resolves to multiple network addresses, any dial timeout (from d.Timeout or ctx) is spread over each consecutive dial, such that each is given an appropriate fraction of the time to connect. For example, if a host has 4 IP addresses and the timeout is 1 minute, the connect to each single address will be given 15 seconds to complete before trying the next one. See func Dial for a description of the network and address parameters." />
-      <item value="Dial uses context.Background internally; to specify the context, use DialContext." />
-      <item value="For TCP, UDP and IP networks, if the host is empty or a literal unspecified IP address, as in &quot;:80&quot;, &quot;0.0.0.0:80&quot; or &quot;[::]:80&quot; for TCP and UDP, &quot;&quot;, &quot;0.0.0.0&quot; or &quot;::&quot; for IP, the local system is assumed." />
-      <item value="For IP networks, the network must be &quot;ip&quot;, &quot;ip4&quot; or &quot;ip6&quot; followed by a colon and a literal protocol number or a protocol name, and the address has the form &quot;host&quot;. The host must be a literal IP address or a literal IPv6 address with zone. It depends on each operating system how the operating system behaves with a non-well known protocol number such as &quot;0&quot; or &quot;255&quot;." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="82" />
-        <entry key="ENGLISH" value="83" />
+        <entry key="CHINESE" value="85" />
+        <entry key="ENGLISH" value="86" />
       </map>
     </option>
   </component>
