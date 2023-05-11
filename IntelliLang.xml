@@ -1,0 +1,9 @@
+<application>
+  <component name="LanguageInjectionConfiguration">
+    <injection language="SQL" injector-id="go">
+      <display-name>SQL create table</display-name>
+      <single-file value="true" />
+      <place disabled="true"><![CDATA[goStringLiteralThatMatches(" *CREATE +((TEMP(ORARY)?|(GLOBAL +TEMPORARY)) +)?TABLE .*\\(.*")]]></place>
+    </injection>
+  </component>
+</application>
