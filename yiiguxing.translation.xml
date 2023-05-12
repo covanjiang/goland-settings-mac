@@ -72,11 +72,15 @@
   <component name="Translation.Cache">
     <option name="lastTrimTime" value="1683703909712" />
   </component>
-  <component name="Translation.Settings">
-    <option name="translator" value="MICROSOFT" />
-  </component>
   <component name="Translation.States">
+    <option name="newTranslationDialogHeight" value="488" />
+    <option name="newTranslationDialogWidth" value="933" />
+    <option name="newTranslationDialogX" value="288" />
+    <option name="newTranslationDialogY" value="325" />
     <histories>
+      <item value="Powered by OpenAI It is powered by OpenAI Codex to work in real time, right from your editor. GitHub Copilot improves developer productivity and happiness, reducing disruptions, improving flow and increasing the amount of time a developer spends doing satisfying work. Unlike other code assistants, GitHub Copilot offers suggestions from a model that OpenAI built from billions of lines of open source code." />
+      <item value="GitHub Copilot provides autocomplete-style suggestions from an AI pair programmer as you code. You can receive suggestions from GitHub Copilot either by starting to write the code you want to use, or by writing a natural language comment describing what you want the code to do." />
+      <item value="GitHub Copilot provides autocomplete-style suggestions from an AI pair programmer as you code. You can receive suggestions from GitHub Copilot either by starting to write the code you want to use, or by writing a natural language comment describing what you want the code to do.&#10;" />
       <item value="Minimum number of idle connections which is useful when establishing new connection is slow. Default is 0. the idle connections are not closed by default." />
       <item value="Maximum number of idle connections. Default is 0. the idle connections are not closed by default." />
       <item value="Default is 10 connections per every CPU as reported by runtime.NumCPU." />
@@ -124,13 +128,10 @@
       <item value="The current value of the average. After adding with Add(), this is updated to reflect the average of all values seen thus far." />
       <item value="A SimpleEWMA represents the exponentially weighted moving average of a series of numbers. It WILL have different behavior than the VariableEWMA for multiple reasons. It has no warm-up period and it uses a constant decay. These properties let it use less memory. It will also behave differently when it's equal to zero, which is assumed to mean uninitialized, so if a value is likely to actually become zero over time, then any non-zero value will cause a sharp jump instead of a small change. However, note that this takes a long time, and the value may just decays to a stable value that's close to zero, but which won't be mistaken for uninitialized. See http:play.golang.orgplitxBDr_RC for example." />
       <item value="VariableEWMA represents the exponentially weighted moving average of a series of numbers. Unlike SimpleEWMA, it supports a custom age, and thus uses more memory." />
-      <item value="NewMovingAverage constructs a MovingAverage that computes an average with the desired characteristics in the moving window or exponential decay. If no age is given, it constructs a default exponentially weighted implementation that consumes minimal memory. The age is related to the decay factor alpha by the formula given for the DECAY constant. It signifies the average age of the samples as time goes to infinity." />
-      <item value="DialContext specifies the dial function for creating unencrypted TCP connections. If DialContext is nil (and the deprecated Dial below is also nil), then the transport dials using package net. DialContext runs concurrently with calls to RoundTrip. A RoundTrip call that initiates a dial may end up using a connection dialed previously when the earlier connection becomes idle before the later DialContext completes." />
-      <item value="DialContext connects to the address on the named network using the provided context. The provided Context must be non-nil. If the context expires before the connection is complete, an error is returned. Once successfully connected, any expiration of the context will not affect the connection. When using TCP, and the host in the address parameter resolves to multiple network addresses, any dial timeout (from d.Timeout or ctx) is spread over each consecutive dial, such that each is given an appropriate fraction of the time to connect. For example, if a host has 4 IP addresses and the timeout is 1 minute, the connect to each single address will be given 15 seconds to complete before trying the next one. See func Dial for a description of the network and address parameters." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="85" />
+        <entry key="CHINESE" value="89" />
         <entry key="ENGLISH" value="86" />
       </map>
     </option>
