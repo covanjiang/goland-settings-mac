@@ -8,7 +8,6 @@
       <w>conns</w>
       <w>dmopt</w>
       <w>dmopts</w>
-      <w>docid</w>
       <w>domob</w>
       <w>feishu</w>
       <w>fsnotify</w>
@@ -16,20 +15,13 @@
       <w>ifnull</w>
       <w>kuai</w>
       <w>kuaishou</w>
-      <w>lianshan</w>
-      <w>luban</w>
       <w>mapstructure</w>
-      <w>maxage</w>
-      <w>maxbackups</w>
       <w>ormer</w>
       <w>preg</w>
       <w>qianchuan</w>
-      <w>shopwindow</w>
-      <w>sopo</w>
       <w>tiao</w>
       <w>toutiao</w>
       <w>ulink</w>
-      <w>yyyymmdd</w>
     </words>
   </component>
 </application>
