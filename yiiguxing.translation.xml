@@ -77,6 +77,7 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="The number of established connections both in use and idle." />
       <item value="ErrBadConn should be returned by a driver to signal to the sql package that a driver.Conn is in a bad state (such as the server having earlier closed the connection) and the sql package should retry on a new connection. To prevent duplicate operations, ErrBadConn should NOT be returned if there's a possibility that the database server might have performed the operation. Even if the server sends back an error, you shouldn't return ErrBadConn." />
       <item value="maxBadConnRetries is the number of maximum retries if the driver returns driver.ErrBadConn to signal a broken connection before forcing a new connection to be opened." />
       <item value="Double and clamp for next time." />
@@ -126,12 +127,11 @@
       <item value="When using TCP, and the host resolves to multiple IP addresses, Dial will try each IP address in order until one succeeds." />
       <item value="The functions JoinHostPort and SplitHostPort manipulate a pair of host and port in this form." />
       <item value="The zone specifies the scope of the literal IPv6 address as defined in RFC 4007." />
-      <item value="it must be enclosed in square brackets," />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="78" />
-        <entry key="ENGLISH" value="79" />
+        <entry key="CHINESE" value="79" />
+        <entry key="ENGLISH" value="80" />
       </map>
     </option>
   </component>
