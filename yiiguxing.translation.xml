@@ -77,6 +77,7 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="TryGo calls the given function in a new goroutine only if the number of active goroutines in the group is currently below the configured limit. The return value reports whether the goroutine was started." />
       <item value="Note: this copy prevents blocking other clients while serving this one. We don't need to do a deep copy, because elements in the slice are insert-only and never modified." />
       <item value="calcDistance calculates the distance between two points using the &quot;haversine&quot; formula. The formula is based on http:mathforum.orglibrarydrmathview51879.html." />
       <item value="RecordRoute records a route composited of a sequence of points. It gets a stream of points, and responds with statistics about the &quot;trip&quot;: number of points, number of known features visited, total distance traveled, and total time spent." />
@@ -126,12 +127,11 @@
       <item value="VariableEWMA represents the exponentially weighted moving average of a series of numbers. Unlike SimpleEWMA, it supports a custom age, and thus uses more memory." />
       <item value="NewMovingAverage constructs a MovingAverage that computes an average with the desired characteristics in the moving window or exponential decay. If no age is given, it constructs a default exponentially weighted implementation that consumes minimal memory. The age is related to the decay factor alpha by the formula given for the DECAY constant. It signifies the average age of the samples as time goes to infinity." />
       <item value="DialContext specifies the dial function for creating unencrypted TCP connections. If DialContext is nil (and the deprecated Dial below is also nil), then the transport dials using package net. DialContext runs concurrently with calls to RoundTrip. A RoundTrip call that initiates a dial may end up using a connection dialed previously when the earlier connection becomes idle before the later DialContext completes." />
-      <item value="DialContext connects to the address on the named network using the provided context. The provided Context must be non-nil. If the context expires before the connection is complete, an error is returned. Once successfully connected, any expiration of the context will not affect the connection. When using TCP, and the host in the address parameter resolves to multiple network addresses, any dial timeout (from d.Timeout or ctx) is spread over each consecutive dial, such that each is given an appropriate fraction of the time to connect. For example, if a host has 4 IP addresses and the timeout is 1 minute, the connect to each single address will be given 15 seconds to complete before trying the next one. See func Dial for a description of the network and address parameters." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="85" />
-        <entry key="ENGLISH" value="86" />
+        <entry key="CHINESE" value="86" />
+        <entry key="ENGLISH" value="87" />
       </map>
     </option>
   </component>
