@@ -77,6 +77,7 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="The argument p points to an int64 variable in which to store the value of the flag." />
       <item value="TryGo calls the given function in a new goroutine only if the number of active goroutines in the group is currently below the configured limit. The return value reports whether the goroutine was started." />
       <item value="Note: this copy prevents blocking other clients while serving this one. We don't need to do a deep copy, because elements in the slice are insert-only and never modified." />
       <item value="calcDistance calculates the distance between two points using the &quot;haversine&quot; formula. The formula is based on http:mathforum.orglibrarydrmathview51879.html." />
@@ -126,12 +127,11 @@
       <item value="A SimpleEWMA represents the exponentially weighted moving average of a series of numbers. It WILL have different behavior than the VariableEWMA for multiple reasons. It has no warm-up period and it uses a constant decay. These properties let it use less memory. It will also behave differently when it's equal to zero, which is assumed to mean uninitialized, so if a value is likely to actually become zero over time, then any non-zero value will cause a sharp jump instead of a small change. However, note that this takes a long time, and the value may just decays to a stable value that's close to zero, but which won't be mistaken for uninitialized. See http:play.golang.orgplitxBDr_RC for example." />
       <item value="VariableEWMA represents the exponentially weighted moving average of a series of numbers. Unlike SimpleEWMA, it supports a custom age, and thus uses more memory." />
       <item value="NewMovingAverage constructs a MovingAverage that computes an average with the desired characteristics in the moving window or exponential decay. If no age is given, it constructs a default exponentially weighted implementation that consumes minimal memory. The age is related to the decay factor alpha by the formula given for the DECAY constant. It signifies the average age of the samples as time goes to infinity." />
-      <item value="DialContext specifies the dial function for creating unencrypted TCP connections. If DialContext is nil (and the deprecated Dial below is also nil), then the transport dials using package net. DialContext runs concurrently with calls to RoundTrip. A RoundTrip call that initiates a dial may end up using a connection dialed previously when the earlier connection becomes idle before the later DialContext completes." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="86" />
-        <entry key="ENGLISH" value="87" />
+        <entry key="CHINESE" value="87" />
+        <entry key="ENGLISH" value="88" />
       </map>
     </option>
   </component>
