@@ -72,9 +72,6 @@
   <component name="Translation.Cache">
     <option name="lastTrimTime" value="1693815256039" />
   </component>
-  <component name="Translation.Settings">
-    <option name="translator" value="MICROSOFT" />
-  </component>
   <component name="Translation.States">
     <histories>
       <item value="The argument p points to an int64 variable in which to store the value of the flag." />
