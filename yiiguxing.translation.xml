@@ -74,6 +74,8 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="isNumeric is the validation function for validating if the current field's value is a valid numeric value." />
+      <item value="isNumber is the validation function for validating if the current field's value is a valid number." />
       <item value="these require that even if the value is nil that the validation should run, omitempty still overrides this behaviour" />
       <item value="no need to error check here, baked in will always be valid" />
       <item value="if the key already exists, the previous validation function will be replaced. - this method is not thread-safe it is intended that these all be registered prior to any validation" />
@@ -122,13 +124,11 @@
       <item value="The duration of the rate oscillation period" />
       <item value="the uniform distribution" />
       <item value="registry" />
-      <item value="Create a summary to track fictional interservice RPC latencies for three distinct services with different latency distributions. These services are differentiated via a &quot;service&quot; label." />
-      <item value="The current value of the average. After adding with Add(), this is updated to reflect the average of all values seen thus far." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="90" />
-        <entry key="ENGLISH" value="91" />
+        <entry key="CHINESE" value="92" />
+        <entry key="ENGLISH" value="93" />
       </map>
     </option>
   </component>
