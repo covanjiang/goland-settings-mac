@@ -74,6 +74,11 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="Param returns the param value, in string form for comparison; this will also help with generating an error message" />
+      <item value="Value returns the actual field's value in case needed for creating the error message" />
+      <item value="StructNamespace returns the namespace for the field error, with the field's actual name. eq. &quot;User.FirstName&quot; see Namespace for comparison NOTE: this field can be blank when validating a single primitive field using validate.Field(...) as there is no way to extract its name" />
+      <item value="Namespace returns the namespace for the field error, with the tag name taking precedence over the field's actual name. eg. JSON name &quot;User.fname&quot; See StructNamespace() for a version that returns actual names. NOTE: this field can be blank when validating a single primitive field using validate.Field(...) as there is no way to extract it's name" />
+      <item value="Tag returns the validation tag that failed. if the validation was an alias, this will return the alias name and not the underlying tag that failed. eg. alias &quot;iscolor&quot;: &quot;hexcolor|rgb|rgba|hsl|hsla&quot; will return &quot;iscolor&quot;" />
       <item value="isNumeric is the validation function for validating if the current field's value is a valid numeric value." />
       <item value="isNumber is the validation function for validating if the current field's value is a valid number." />
       <item value="these require that even if the value is nil that the validation should run, omitempty still overrides this behaviour" />
@@ -119,16 +124,11 @@
       <item value="Reader is the interface that wraps the basic Read method. Read reads up to len(p) bytes into p. It returns the number of bytes read (0 &lt;= n &lt;= len(p)) and any error encountered. Even if Read returns n &lt; len(p), it may use all of p as scratch space during the call. If some data is available but not len(p) bytes, Read conventionally returns what is available instead of waiting for more. When Read encounters an error or end-of-file condition after successfully reading n &gt; 0 bytes, it returns the number of bytes read. It may return the (non-nil) error from the same call or return the error (and n == 0) from a subsequent call. An instance of this general case is that a Reader returning a non-zero number of bytes at the end of the input stream may return either err == EOF or err == nil. The next Read should return 0, EOF. Callers should always process the n &gt; 0 bytes returned before considering the error err. Doing so correctly handles IO errors that happen after reading some bytes and also both of the allowed EOF behaviors. Implementations of Read are discouraged from returning a zero byte count with a nil error, except when len(p) == 0. Callers should treat a return of 0 and nil as indicating that nothing happened; in particular it does not indicate EOF. Implementations must not retain p." />
       <item value="BigEndian is the big-endian implementation of ByteOrder and AppendByteOrder." />
       <item value="LittleEndian is the little-endian implementation of ByteOrder and AppendByteOrder." />
-      <item value="leverage" />
-      <item value="The same as above, but now as a histogram, and only for the normal distribution. The histogram features both conventional buckets as well as sparse buckets, the latter needed for the experimental native histograms (ingested by a Prometheus server v2.40 with the corresponding feature flag enabled). The conventional buckets are targeted to the parameters of the normal distribution, with 20 buckets centered on the mean, each half-sigma wide. The sparse buckets are always centered on zero, with a growth factor of one bucket to the next of (at most) 1.1. (The precise factor is 2^2^-3 = 1.0905077...)" />
-      <item value="The duration of the rate oscillation period" />
-      <item value="the uniform distribution" />
-      <item value="registry" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="92" />
-        <entry key="ENGLISH" value="93" />
+        <entry key="CHINESE" value="97" />
+        <entry key="ENGLISH" value="98" />
       </map>
     </option>
   </component>
