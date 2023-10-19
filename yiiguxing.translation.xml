@@ -74,6 +74,7 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="OnInitialize sets the passed functions to be run when each command's Execute method is called." />
       <item value="Param returns the param value, in string form for comparison; this will also help with generating an error message" />
       <item value="Value returns the actual field's value in case needed for creating the error message" />
       <item value="StructNamespace returns the namespace for the field error, with the field's actual name. eq. &quot;User.FirstName&quot; see Namespace for comparison NOTE: this field can be blank when validating a single primitive field using validate.Field(...) as there is no way to extract its name" />
@@ -123,12 +124,11 @@
       <item value="The server is not started at this point." />
       <item value="Reader is the interface that wraps the basic Read method. Read reads up to len(p) bytes into p. It returns the number of bytes read (0 &lt;= n &lt;= len(p)) and any error encountered. Even if Read returns n &lt; len(p), it may use all of p as scratch space during the call. If some data is available but not len(p) bytes, Read conventionally returns what is available instead of waiting for more. When Read encounters an error or end-of-file condition after successfully reading n &gt; 0 bytes, it returns the number of bytes read. It may return the (non-nil) error from the same call or return the error (and n == 0) from a subsequent call. An instance of this general case is that a Reader returning a non-zero number of bytes at the end of the input stream may return either err == EOF or err == nil. The next Read should return 0, EOF. Callers should always process the n &gt; 0 bytes returned before considering the error err. Doing so correctly handles IO errors that happen after reading some bytes and also both of the allowed EOF behaviors. Implementations of Read are discouraged from returning a zero byte count with a nil error, except when len(p) == 0. Callers should treat a return of 0 and nil as indicating that nothing happened; in particular it does not indicate EOF. Implementations must not retain p." />
       <item value="BigEndian is the big-endian implementation of ByteOrder and AppendByteOrder." />
-      <item value="LittleEndian is the little-endian implementation of ByteOrder and AppendByteOrder." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="97" />
-        <entry key="ENGLISH" value="98" />
+        <entry key="CHINESE" value="98" />
+        <entry key="ENGLISH" value="99" />
       </map>
     </option>
   </component>
