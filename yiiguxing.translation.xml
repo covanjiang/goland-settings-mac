@@ -74,6 +74,7 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="failed, retry one by one" />
       <item value="Shuffle pseudo-randomizes the order of elements using the default Source. n is the number of elements. Shuffle panics if n &lt; 0. swap swaps the elements with indexes i and j." />
       <item value="options is a middleware function that appends headers for options requests and aborts then exits the middleware chain and ends the request." />
       <item value="OnInitialize sets the passed functions to be run when each command's Execute method is called." />
@@ -123,12 +124,11 @@
       <item value="Send first packet of payload together with request, in favor of small requests" />
       <item value="Commands lists the available commands and help topics. The order here is the order in which they are printed by 'go help'. Note that subcommands are in general best avoided." />
       <item value="The following are neccesary as they register handlers in their init functions." />
-      <item value="The server is not started at this point." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="100" />
-        <entry key="ENGLISH" value="101" />
+        <entry key="CHINESE" value="101" />
+        <entry key="ENGLISH" value="102" />
       </map>
     </option>
   </component>
