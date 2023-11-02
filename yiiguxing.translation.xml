@@ -70,10 +70,22 @@
     <option name="keepFormat" value="true" />
   </component>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1698308456915" />
+    <option name="lastTrimTime" value="1698905681604" />
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="ConsumeClaim must start a consumer loop of ConsumerGroupClaim's Messages(). Once the Messages() channel is closed, the Handler must finish its processing loop and exit." />
+      <item value="Cleanup is run at the end of a session, once all ConsumeClaim goroutines have exited but before the offsets are committed for the very last time." />
+      <item value="Setup is run at the beginning of a new session, before ConsumeClaim." />
+      <item value="ConsumerGroupHandler instances are used to handle individual topicpartition claims. It also provides hooks for your consumer group session life-cycle and allow you to trigger logic before or after the consume loop(s). PLEASE NOTE that handlers are likely be called from several goroutines concurrently, ensure that all state is safely protected against race conditions." />
+      <item value="The total number of times to retry sending a message (default 3). Similar to the `message.send.max.retries` setting of the JVM producer." />
+      <item value="The level of acknowledgement reliability needed from the broker (defaults to WaitForLocal). Equivalent to the `request.required.acks` setting of the JVM producer." />
+      <item value="Close shuts down the producer and waits for any buffered messages to be flushed. You must call this function before a producer object passes out of scope, as it may otherwise leak memory. You must call this before process shutting down, or you may lose messages. You must call this before calling Close on the underlying client." />
+      <item value="AsyncClose triggers a shutdown of the producer. The shutdown has completed when both the Errors and Successes channels have been closed. When calling AsyncClose, you must continue to read from those channels in order to drain the results of any messages in flight." />
+      <item value="AsyncProducer publishes Kafka messages using a non-blocking API. It routes messages to the correct broker for the provided topic-partition, refreshing metadata as appropriate, and parses responses for errors. You must read from the Errors() channel or the producer will deadlock. You must call Close() or AsyncClose() on a producer to avoid leaks and message lost: it will not be garbage-collected automatically when it passes out of scope and buffered messages may not be flushed." />
+      <item value="Config is used to pass multiple configuration options to Sarama's constructors." />
+      <item value="Offset is the offset of the message stored on the broker. This is only guaranteed to be defined if the message was successfully delivered and RequiredAcks is not NoResponse." />
+      <item value="This field is used to hold arbitrary data you wish to include so it will be available when receiving on the Successes and Errors channels. Sarama completely ignores this field and is only to be used for pass-through data." />
       <item value="Wrapper" />
       <item value="failed, retry one by one" />
       <item value="Shuffle pseudo-randomizes the order of elements using the default Source. n is the number of elements. Shuffle panics if n &lt; 0. swap swaps the elements with indexes i and j." />
@@ -112,23 +124,11 @@
       <item value="create nested file" />
       <item value="IsNotExist returns a boolean indicating whether the error is known to report that a file or directory does not exist. It is satisfied by ErrNotExist as well as some syscall errors. This function predates errors.Is. It only supports errors returned by the os package. New code should use errors.Is(err, fs.ErrNotExist)." />
       <item value="Executable returns the path name for the executable that started the current process. There is no guarantee that the path is still pointing to the correct executable. If a symlink was used to start the process, depending on the operating system, the result might be the symlink or the path it pointed to. If a stable result is needed, pathfilepath.EvalSymlinks might help. Executable returns an absolute path unless an error occurred. The main use case is finding resources located relative to an executable." />
-      <item value="Force to use the directory where the binary file is located as data directory" />
-      <item value="Cobra supports local flags which will only run when this command is called directly, e.g.: serverCmd.Flags().BoolP(&quot;toggle&quot;, &quot;t&quot;, false, &quot;Help message for toggle&quot;)" />
-      <item value="Cobra supports Persistent Flags which will work for this command and all subcommands, e.g.: serverCmd.PersistentFlags().String(&quot;foo&quot;, &quot;&quot;, &quot;A help for foo&quot;)" />
-      <item value="here you will define your flags and configuration settings." />
-      <item value="Contributor Covenant Code of Conduct" />
-      <item value="Struct Credit has methods on both value and pointer receivers. Such usage is not recommended by the Go Documentation." />
-      <item value="scene" />
-      <item value="Report Recent Consumption" />
-      <item value="Logfile" />
-      <item value="Send first packet of payload together with request, in favor of small requests." />
-      <item value="Send first packet of payload together with request, in favor of small requests" />
-      <item value="Commands lists the available commands and help topics. The order here is the order in which they are printed by 'go help'. Note that subcommands are in general best avoided." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="102" />
-        <entry key="ENGLISH" value="103" />
+        <entry key="CHINESE" value="114" />
+        <entry key="ENGLISH" value="115" />
       </map>
     </option>
   </component>
