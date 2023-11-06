@@ -74,6 +74,7 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="Stop stops the cron scheduler if it is running; otherwise it does nothing. A context is returned so the caller can wait for running jobs to complete." />
       <item value="InsecureSkipVerify controls whether a client verifies the server's certificate chain and host name. If InsecureSkipVerify is true, cryptotls accepts any certificate presented by the server and any host name in that certificate. In this mode, TLS is susceptible to machine-in-the-middle attacks unless custom verification is used. This should be used only for testing or in combination with VerifyConnection or VerifyPeerCertificate." />
       <item value="children of this command will inherit and execute after PostRun." />
       <item value="Errors returns a read channel of errors that occurred during the consumer life-cycle. By default, errors are logged and not returned over this channel. If you want to implement any custom error handling, set your config's Consumer.Return.Errors setting to true, and read from this channel." />
@@ -123,12 +124,11 @@
       <item value="Shutdown gracefully shuts down the server without interrupting any active connections. Shutdown works by first closing all open listeners, then closing all idle connections, and then waiting indefinitely for connections to return to idle and then shut down. If the provided context expires before the shutdown is complete, Shutdown returns the context's error, otherwise it returns any error returned from closing the Server's underlying Listener(s)." />
       <item value="The upper layer of the root directory is still the root directory. So &quot;..&quot; And &quot;.&quot; will be cleared for example 1. &quot;..&quot; or &quot;.&quot; =&gt; &quot;&quot; 2. &quot;.....&quot; or &quot;....&quot; =&gt; &quot;...&quot; 3. &quot;...x.&quot; or &quot;..x.&quot; =&gt; &quot;.x.&quot; 4. &quot;x\\y&quot; = &gt; &quot;zx&quot;" />
       <item value="RemoveAll removes path and any children it contains. It removes everything it can but returns the first error it encounters. If the path does not exist, RemoveAll returns nil (no error). If there is an error, it will be of type PathError." />
-      <item value="tries to be 100% compatible with standard library behavior" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="118" />
-        <entry key="ENGLISH" value="119" />
+        <entry key="CHINESE" value="119" />
+        <entry key="ENGLISH" value="120" />
       </map>
     </option>
   </component>
