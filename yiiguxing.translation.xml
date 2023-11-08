@@ -74,6 +74,9 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="Retrieval of union application configuration failed&quot;," />
+      <item value="Skipping order handling: callback status does not indicate failure" />
+      <item value="Order does not require handling based on callback status" />
       <item value="Alert: Panic encountered in CallbackFailedOrderProcessor handle method" />
       <item value="Alert: Failed to record callback failed order" />
       <item value="Failed to record callback failed order post-recovery" />
@@ -121,14 +124,11 @@
       <item value="The number of established connections both in use and idle." />
       <item value="ErrBadConn should be returned by a driver to signal to the sql package that a driver.Conn is in a bad state (such as the server having earlier closed the connection) and the sql package should retry on a new connection. To prevent duplicate operations, ErrBadConn should NOT be returned if there's a possibility that the database server might have performed the operation. Even if the server sends back an error, you shouldn't return ErrBadConn." />
       <item value="maxBadConnRetries is the number of maximum retries if the driver returns driver.ErrBadConn to signal a broken connection before forcing a new connection to be opened." />
-      <item value="Double and clamp for next time." />
-      <item value="Add 10% jitter." />
-      <item value="Once Shutdown has been called on a server, it may not be reused; future calls to methods such as Serve will return ErrServerClosed." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="125" />
-        <entry key="ENGLISH" value="126" />
+        <entry key="CHINESE" value="128" />
+        <entry key="ENGLISH" value="129" />
       </map>
     </option>
   </component>
