@@ -74,6 +74,7 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="Individual order save failed" />
       <item value="Media source mismatch detected between order and click event" />
       <item value="Retrieval of union application configuration failed&quot;," />
       <item value="Skipping order handling: callback status does not indicate failure" />
@@ -123,12 +124,11 @@
       <item value="A latitude-longitude rectangle, represented as two diagonally opposite" />
       <item value="consumption" />
       <item value="The number of established connections both in use and idle." />
-      <item value="ErrBadConn should be returned by a driver to signal to the sql package that a driver.Conn is in a bad state (such as the server having earlier closed the connection) and the sql package should retry on a new connection. To prevent duplicate operations, ErrBadConn should NOT be returned if there's a possibility that the database server might have performed the operation. Even if the server sends back an error, you shouldn't return ErrBadConn." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="129" />
-        <entry key="ENGLISH" value="130" />
+        <entry key="CHINESE" value="130" />
+        <entry key="ENGLISH" value="131" />
       </map>
     </option>
   </component>
