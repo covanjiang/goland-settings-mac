@@ -74,6 +74,7 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="elapsed time" />
       <item value="Filter the click event to determine if it should be processed or ignored" />
       <item value="Found corresponding click event" />
       <item value="Click event not found recently" />
@@ -123,12 +124,11 @@
       <item value="if the key already exists, the previous validation function will be replaced. - this method is not thread-safe it is intended that these all be registered prior to any validation" />
       <item value="The argument p points to an int64 variable in which to store the value of the flag." />
       <item value="TryGo calls the given function in a new goroutine only if the number of active goroutines in the group is currently below the configured limit. The return value reports whether the goroutine was started." />
-      <item value="Note: this copy prevents blocking other clients while serving this one. We don't need to do a deep copy, because elements in the slice are insert-only and never modified." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="136" />
-        <entry key="ENGLISH" value="137" />
+        <entry key="CHINESE" value="137" />
+        <entry key="ENGLISH" value="138" />
       </map>
     </option>
   </component>
