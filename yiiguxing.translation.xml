@@ -74,6 +74,7 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="Terminal Type Wap" />
       <item value="supportmedia" />
       <item value="failed to execute GetOrderList OrderRowQuery after %d retries" />
       <item value="Get Order List" />
@@ -123,12 +124,11 @@
       <item value="isNumeric is the validation function for validating if the current field's value is a valid numeric value." />
       <item value="isNumber is the validation function for validating if the current field's value is a valid number." />
       <item value="these require that even if the value is nil that the validation should run, omitempty still overrides this behaviour" />
-      <item value="no need to error check here, baked in will always be valid" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="140" />
-        <entry key="ENGLISH" value="141" />
+        <entry key="CHINESE" value="141" />
+        <entry key="ENGLISH" value="142" />
       </map>
     </option>
   </component>
