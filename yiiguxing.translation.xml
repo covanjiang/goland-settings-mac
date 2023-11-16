@@ -70,10 +70,11 @@
     <option name="keepFormat" value="true" />
   </component>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1699414644249" />
+    <option name="lastTrimTime" value="1700123500693" />
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="Transformer is a function passed to a Question after a user has provided a response. The function can be used to implement a custom logic that will result to return a different representation of the given answer." />
       <item value="Terminal Type Wap" />
       <item value="supportmedia" />
       <item value="failed to execute GetOrderList OrderRowQuery after %d retries" />
@@ -123,12 +124,11 @@
       <item value="Tag returns the validation tag that failed. if the validation was an alias, this will return the alias name and not the underlying tag that failed. eg. alias &quot;iscolor&quot;: &quot;hexcolor|rgb|rgba|hsl|hsla&quot; will return &quot;iscolor&quot;" />
       <item value="isNumeric is the validation function for validating if the current field's value is a valid numeric value." />
       <item value="isNumber is the validation function for validating if the current field's value is a valid number." />
-      <item value="these require that even if the value is nil that the validation should run, omitempty still overrides this behaviour" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="141" />
-        <entry key="ENGLISH" value="142" />
+        <entry key="CHINESE" value="142" />
+        <entry key="ENGLISH" value="143" />
       </map>
     </option>
   </component>
