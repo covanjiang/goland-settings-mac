@@ -74,6 +74,9 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="Replace returns a copy of the string s with the first n non-overlapping instances of old replaced by new. If old is empty, it matches at the beginning of the string and after each UTF-8 sequence, yielding up to k+1 replacements for a k-rune string. If n &lt; 0, there is no limit on the number of replacements." />
+      <item value="Errors returns a read channel of errors that occur during offset management, if enabled. By default, errors are logged and not returned over this channel. If you want to implement any custom error handling, set your config's Consumer.Return.Errors setting to true, and read from this channel." />
+      <item value="Notifications returns a channel of Notifications that occur during consumer rebalancing. Notifications will only be emitted over this channel, if your config's Group.Return.Notifications setting to true." />
       <item value="Shutdown gracefully shuts down the server without interrupting any active connections. Shutdown works by first closing all open listeners, then closing all idle connections, and then waiting indefinitely for connections to return to idle and then shut down. If the provided context expires before the shutdown is complete, Shutdown returns the context's error, otherwise it returns any error returned from closing the Server's underlying Listener(s). When Shutdown is called, Serve, ListenAndServe, and ListenAndServeTLS immediately return ErrServerClosed. Make sure the program doesn't exit and waits instead for Shutdown to return. Shutdown does not attempt to close nor wait for hijacked connections such as WebSockets. The caller of Shutdown should separately notify such long-lived connections of shutdown and wait for them to close, if desired. See RegisterOnShutdown for a way to register shutdown notification functions. Once Shutdown has been called on a server, it may not be reused; future calls to methods such as Serve will return ErrServerClosed." />
       <item value="HTTP cannot have multiple simultaneous active requests.[] Until the server replies to this request, it can't read another, so we might as well run the handler in this goroutine. [] Not strictly true: HTTP pipelining. We could let them all process in parallel even if their responses need to be serialized. But we're not going to implement HTTP pipelining because it was never deployed in the wild and the answer is HTTP2." />
       <item value="Repeat returns a new string consisting of count copies of the string s. It panics if count is negative or if the result of (len(s) count) overflows." />
@@ -121,14 +124,11 @@
       <item value="options is a middleware function that appends headers for options requests and aborts then exits the middleware chain and ends the request." />
       <item value="OnInitialize sets the passed functions to be run when each command's Execute method is called." />
       <item value="Param returns the param value, in string form for comparison; this will also help with generating an error message" />
-      <item value="Value returns the actual field's value in case needed for creating the error message" />
-      <item value="StructNamespace returns the namespace for the field error, with the field's actual name. eq. &quot;User.FirstName&quot; see Namespace for comparison NOTE: this field can be blank when validating a single primitive field using validate.Field(...) as there is no way to extract its name" />
-      <item value="Namespace returns the namespace for the field error, with the tag name taking precedence over the field's actual name. eg. JSON name &quot;User.fname&quot; See StructNamespace() for a version that returns actual names. NOTE: this field can be blank when validating a single primitive field using validate.Field(...) as there is no way to extract it's name" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="145" />
-        <entry key="ENGLISH" value="146" />
+        <entry key="CHINESE" value="148" />
+        <entry key="ENGLISH" value="149" />
       </map>
     </option>
   </component>
