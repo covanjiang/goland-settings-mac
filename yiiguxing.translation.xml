@@ -70,10 +70,11 @@
     <option name="keepFormat" value="true" />
   </component>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1700123500693" />
+    <option name="lastTrimTime" value="1700635273317" />
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="retry attempt" />
       <item value="Replace returns a copy of the string s with the first n non-overlapping instances of old replaced by new. If old is empty, it matches at the beginning of the string and after each UTF-8 sequence, yielding up to k+1 replacements for a k-rune string. If n &lt; 0, there is no limit on the number of replacements." />
       <item value="Errors returns a read channel of errors that occur during offset management, if enabled. By default, errors are logged and not returned over this channel. If you want to implement any custom error handling, set your config's Consumer.Return.Errors setting to true, and read from this channel." />
       <item value="Notifications returns a channel of Notifications that occur during consumer rebalancing. Notifications will only be emitted over this channel, if your config's Group.Return.Notifications setting to true." />
@@ -123,12 +124,11 @@
       <item value="Shuffle pseudo-randomizes the order of elements using the default Source. n is the number of elements. Shuffle panics if n &lt; 0. swap swaps the elements with indexes i and j." />
       <item value="options is a middleware function that appends headers for options requests and aborts then exits the middleware chain and ends the request." />
       <item value="OnInitialize sets the passed functions to be run when each command's Execute method is called." />
-      <item value="Param returns the param value, in string form for comparison; this will also help with generating an error message" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="148" />
-        <entry key="ENGLISH" value="149" />
+        <entry key="CHINESE" value="149" />
+        <entry key="ENGLISH" value="150" />
       </map>
     </option>
   </component>
