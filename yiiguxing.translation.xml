@@ -74,6 +74,7 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="tail payment" />
       <item value="attribute" />
       <item value="Effective" />
       <item value="ineffective" />
@@ -123,12 +124,11 @@
       <item value="Offset is the offset of the message stored on the broker. This is only guaranteed to be defined if the message was successfully delivered and RequiredAcks is not NoResponse." />
       <item value="This field is used to hold arbitrary data you wish to include so it will be available when receiving on the Successes and Errors channels. Sarama completely ignores this field and is only to be used for pass-through data." />
       <item value="Wrapper" />
-      <item value="failed, retry one by one" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="152" />
-        <entry key="ENGLISH" value="153" />
+        <entry key="CHINESE" value="153" />
+        <entry key="ENGLISH" value="154" />
       </map>
     </option>
   </component>
