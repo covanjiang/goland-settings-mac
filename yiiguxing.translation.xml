@@ -72,6 +72,9 @@
   <component name="Translation.Cache">
     <option name="lastTrimTime" value="1701750590778" />
   </component>
+  <component name="Translation.Settings">
+    <option name="translator" value="GOOGLE" />
+  </component>
   <component name="Translation.States">
     <histories>
       <item value="The append built-in function appends elements to the end of a slice. If it has sufficient capacity, the destination is resliced to accommodate the new elements. If it does not, a new underlying array will be allocated. Append returns the updated slice. It is therefore necessary to store the result of append, often in the variable holding the slice itself: slice = append(slice, elem1, elem2) slice = append(slice, anotherSlice...) As a special case, it is legal to append a string to a byte slice, like this: slice = append([]byte(&quot;hello &quot;), &quot;world&quot;...)" />
