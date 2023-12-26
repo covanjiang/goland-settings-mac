@@ -70,13 +70,14 @@
     <option name="keepFormat" value="true" />
   </component>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1701750590778" />
+    <option name="lastTrimTime" value="1703589104750" />
   </component>
   <component name="Translation.Settings">
     <option name="translator" value="GOOGLE" />
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="Unix returns t as a Unix time, the number of seconds elapsed since January 1, 1970 UTC. The result does not depend on the location associated with t. Unix-like operating systems often record time as a 32-bit count of seconds, but since the method here returns a 64-bit value it is valid for billions of years into the past or future." />
       <item value="The append built-in function appends elements to the end of a slice. If it has sufficient capacity, the destination is resliced to accommodate the new elements. If it does not, a new underlying array will be allocated. Append returns the updated slice. It is therefore necessary to store the result of append, often in the variable holding the slice itself: slice = append(slice, elem1, elem2) slice = append(slice, anotherSlice...) As a special case, it is legal to append a string to a byte slice, like this: slice = append([]byte(&quot;hello &quot;), &quot;world&quot;...)" />
       <item value="tail payment" />
       <item value="attribute" />
@@ -126,12 +127,11 @@
       <item value="AsyncProducer publishes Kafka messages using a non-blocking API. It routes messages to the correct broker for the provided topic-partition, refreshing metadata as appropriate, and parses responses for errors. You must read from the Errors() channel or the producer will deadlock. You must call Close() or AsyncClose() on a producer to avoid leaks and message lost: it will not be garbage-collected automatically when it passes out of scope and buffered messages may not be flushed." />
       <item value="Config is used to pass multiple configuration options to Sarama's constructors." />
       <item value="Offset is the offset of the message stored on the broker. This is only guaranteed to be defined if the message was successfully delivered and RequiredAcks is not NoResponse." />
-      <item value="This field is used to hold arbitrary data you wish to include so it will be available when receiving on the Successes and Errors channels. Sarama completely ignores this field and is only to be used for pass-through data." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="154" />
-        <entry key="ENGLISH" value="155" />
+        <entry key="CHINESE" value="155" />
+        <entry key="ENGLISH" value="156" />
       </map>
     </option>
   </component>
