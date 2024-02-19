@@ -70,13 +70,14 @@
     <option name="keepFormat" value="true" />
   </component>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1703589104750" />
+    <option name="lastTrimTime" value="1708331643105" />
   </component>
   <component name="Translation.Settings">
     <option name="translator" value="GOOGLE" />
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="Assign provide attributes used in [FirstOrCreate] or [FirstOrInit] Assign adds attributes even if the record is found. If using FirstOrCreate, this means that records will be updated even if they are found. assign an email regardless of if the record is not found db.Where(User{Name: &quot;non_existing&quot;}).Assign(User{Email: &quot;fake@fake.org&quot;}).FirstOrInit(&amp;user) user -&gt; User{Name: &quot;non_existing&quot;, Email: &quot;fake@fake.org&quot;} assign email regardless of if record is found db.Where(User{Name: &quot;jinzhu&quot;}).Assign(User{Email: &quot;fake@fake.org&quot;}).FirstOrInit(&amp;user) user -&gt; User{Name: &quot;jinzhu&quot;, Age: 20, Email: &quot;fake@fake.org&quot;} [FirstOrCreate]: https:gorm.iodocsadvanced_query.htmlFirstOrCreate [FirstOrInit]: https:gorm.iodocsadvanced_query.htmlFirstOrInit" />
       <item value="Unix returns t as a Unix time, the number of seconds elapsed since January 1, 1970 UTC. The result does not depend on the location associated with t. Unix-like operating systems often record time as a 32-bit count of seconds, but since the method here returns a 64-bit value it is valid for billions of years into the past or future." />
       <item value="The append built-in function appends elements to the end of a slice. If it has sufficient capacity, the destination is resliced to accommodate the new elements. If it does not, a new underlying array will be allocated. Append returns the updated slice. It is therefore necessary to store the result of append, often in the variable holding the slice itself: slice = append(slice, elem1, elem2) slice = append(slice, anotherSlice...) As a special case, it is legal to append a string to a byte slice, like this: slice = append([]byte(&quot;hello &quot;), &quot;world&quot;...)" />
       <item value="tail payment" />
@@ -126,12 +127,11 @@
       <item value="AsyncClose triggers a shutdown of the producer. The shutdown has completed when both the Errors and Successes channels have been closed. When calling AsyncClose, you must continue to read from those channels in order to drain the results of any messages in flight." />
       <item value="AsyncProducer publishes Kafka messages using a non-blocking API. It routes messages to the correct broker for the provided topic-partition, refreshing metadata as appropriate, and parses responses for errors. You must read from the Errors() channel or the producer will deadlock. You must call Close() or AsyncClose() on a producer to avoid leaks and message lost: it will not be garbage-collected automatically when it passes out of scope and buffered messages may not be flushed." />
       <item value="Config is used to pass multiple configuration options to Sarama's constructors." />
-      <item value="Offset is the offset of the message stored on the broker. This is only guaranteed to be defined if the message was successfully delivered and RequiredAcks is not NoResponse." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="155" />
-        <entry key="ENGLISH" value="156" />
+        <entry key="CHINESE" value="156" />
+        <entry key="ENGLISH" value="157" />
       </map>
     </option>
   </component>
