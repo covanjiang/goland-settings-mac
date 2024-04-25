@@ -77,6 +77,7 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="DefaultPostForm returns the specified key from a POST urlencoded form or multipart form when it exists, otherwise it returns the specified defaultValue string. See: PostForm() and GetPostForm() for further information." />
       <item value="Create creates or truncates the named file. If the file already exists, it is truncated. If the file does not exist, it is created with mode 0666 (before umask). If successful, methods on the returned File can be used for IO; the associated file descriptor has mode O_RDWR. If there is an error, it will be of type PathError." />
       <item value="Assign provide attributes used in [FirstOrCreate] or [FirstOrInit] Assign adds attributes even if the record is found. If using FirstOrCreate, this means that records will be updated even if they are found. assign an email regardless of if the record is not found db.Where(User{Name: &quot;non_existing&quot;}).Assign(User{Email: &quot;fake@fake.org&quot;}).FirstOrInit(&amp;user) user -&gt; User{Name: &quot;non_existing&quot;, Email: &quot;fake@fake.org&quot;} assign email regardless of if record is found db.Where(User{Name: &quot;jinzhu&quot;}).Assign(User{Email: &quot;fake@fake.org&quot;}).FirstOrInit(&amp;user) user -&gt; User{Name: &quot;jinzhu&quot;, Age: 20, Email: &quot;fake@fake.org&quot;} [FirstOrCreate]: https:gorm.iodocsadvanced_query.htmlFirstOrCreate [FirstOrInit]: https:gorm.iodocsadvanced_query.htmlFirstOrInit" />
       <item value="Unix returns t as a Unix time, the number of seconds elapsed since January 1, 1970 UTC. The result does not depend on the location associated with t. Unix-like operating systems often record time as a 32-bit count of seconds, but since the method here returns a 64-bit value it is valid for billions of years into the past or future." />
@@ -126,12 +127,11 @@
       <item value="The level of acknowledgement reliability needed from the broker (defaults to WaitForLocal). Equivalent to the `request.required.acks` setting of the JVM producer." />
       <item value="Close shuts down the producer and waits for any buffered messages to be flushed. You must call this function before a producer object passes out of scope, as it may otherwise leak memory. You must call this before process shutting down, or you may lose messages. You must call this before calling Close on the underlying client." />
       <item value="AsyncClose triggers a shutdown of the producer. The shutdown has completed when both the Errors and Successes channels have been closed. When calling AsyncClose, you must continue to read from those channels in order to drain the results of any messages in flight." />
-      <item value="AsyncProducer publishes Kafka messages using a non-blocking API. It routes messages to the correct broker for the provided topic-partition, refreshing metadata as appropriate, and parses responses for errors. You must read from the Errors() channel or the producer will deadlock. You must call Close() or AsyncClose() on a producer to avoid leaks and message lost: it will not be garbage-collected automatically when it passes out of scope and buffered messages may not be flushed." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="157" />
-        <entry key="ENGLISH" value="158" />
+        <entry key="CHINESE" value="158" />
+        <entry key="ENGLISH" value="159" />
       </map>
     </option>
   </component>
