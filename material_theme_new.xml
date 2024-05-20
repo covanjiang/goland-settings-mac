@@ -1,0 +1,20 @@
+<application>
+  <component name="MaterialThemeNewConfig">
+    <option name="accentState">
+      <MTAccentConfigState>
+        <option name="accentColorHex" value="ffd866" />
+      </MTAccentConfigState>
+    </option>
+    <option name="metadata">
+      <MTMetadataState>
+        <option name="userId" value="162634e9:18f952082a7:-8000" />
+        <option name="version" value="9.2.1" />
+      </MTMetadataState>
+    </option>
+    <option name="themeState">
+      <MTThemeConfigState>
+        <option name="selectedThemeName" value="MONOKAI" />
+      </MTThemeConfigState>
+    </option>
+  </component>
+</application>
