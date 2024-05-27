@@ -70,13 +70,14 @@
     <option name="keepFormat" value="true" />
   </component>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1713950168033" />
+    <option name="lastTrimTime" value="1716777877730" />
   </component>
   <component name="Translation.Settings">
     <option name="translator" value="GOOGLE" />
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="Wrap returns an error annotating err with a stack trace at the point Wrap is called, and the supplied message. If err is nil, Wrap returns nil." />
       <item value="IsExist returns a boolean indicating whether the error is known to report that a file or directory already exists. It is satisfied by ErrExist as well as some syscall errors. This function predates errors.Is. It only supports errors returned by the os package. New code should use errors.Is(err, fs.ErrExist)." />
       <item value="DefaultPostForm returns the specified key from a POST urlencoded form or multipart form when it exists, otherwise it returns the specified defaultValue string. See: PostForm() and GetPostForm() for further information." />
       <item value="Create creates or truncates the named file. If the file already exists, it is truncated. If the file does not exist, it is created with mode 0666 (before umask). If successful, methods on the returned File can be used for IO; the associated file descriptor has mode O_RDWR. If there is an error, it will be of type PathError." />
@@ -126,12 +127,11 @@
       <item value="ConsumerGroupHandler instances are used to handle individual topicpartition claims. It also provides hooks for your consumer group session life-cycle and allow you to trigger logic before or after the consume loop(s). PLEASE NOTE that handlers are likely be called from several goroutines concurrently, ensure that all state is safely protected against race conditions." />
       <item value="The total number of times to retry sending a message (default 3). Similar to the `message.send.max.retries` setting of the JVM producer." />
       <item value="The level of acknowledgement reliability needed from the broker (defaults to WaitForLocal). Equivalent to the `request.required.acks` setting of the JVM producer." />
-      <item value="Close shuts down the producer and waits for any buffered messages to be flushed. You must call this function before a producer object passes out of scope, as it may otherwise leak memory. You must call this before process shutting down, or you may lose messages. You must call this before calling Close on the underlying client." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="159" />
-        <entry key="ENGLISH" value="160" />
+        <entry key="CHINESE" value="160" />
+        <entry key="ENGLISH" value="161" />
       </map>
     </option>
   </component>
