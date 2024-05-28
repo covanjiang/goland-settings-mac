@@ -77,6 +77,10 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="because pointers can be nil need to recurse one index at a time and perform nil check" />
+      <item value="Used to store the correspondance header &lt;-&gt; position in CSV" />
+      <item value="Get the concrete type (not pointer)" />
+      <item value="UnmarshalToChan parses the CSV from the reader and send each value in the chan c. The channel must have a concrete type." />
       <item value="semaphore" />
       <item value="Wrap returns an error annotating err with a stack trace at the point Wrap is called, and the supplied message. If err is nil, Wrap returns nil." />
       <item value="IsExist returns a boolean indicating whether the error is known to report that a file or directory already exists. It is satisfied by ErrExist as well as some syscall errors. This function predates errors.Is. It only supports errors returned by the os package. New code should use errors.Is(err, fs.ErrExist)." />
@@ -123,15 +127,11 @@
       <item value="children of this command will inherit and execute after PostRun." />
       <item value="Errors returns a read channel of errors that occurred during the consumer life-cycle. By default, errors are logged and not returned over this channel. If you want to implement any custom error handling, set your config's Consumer.Return.Errors setting to true, and read from this channel." />
       <item value="ConsumeClaim must start a consumer loop of ConsumerGroupClaim's Messages(). Once the Messages() channel is closed, the Handler must finish its processing loop and exit." />
-      <item value="Cleanup is run at the end of a session, once all ConsumeClaim goroutines have exited but before the offsets are committed for the very last time." />
-      <item value="Setup is run at the beginning of a new session, before ConsumeClaim." />
-      <item value="ConsumerGroupHandler instances are used to handle individual topicpartition claims. It also provides hooks for your consumer group session life-cycle and allow you to trigger logic before or after the consume loop(s). PLEASE NOTE that handlers are likely be called from several goroutines concurrently, ensure that all state is safely protected against race conditions." />
-      <item value="The total number of times to retry sending a message (default 3). Similar to the `message.send.max.retries` setting of the JVM producer." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="161" />
-        <entry key="ENGLISH" value="162" />
+        <entry key="CHINESE" value="165" />
+        <entry key="ENGLISH" value="166" />
       </map>
     </option>
   </component>
