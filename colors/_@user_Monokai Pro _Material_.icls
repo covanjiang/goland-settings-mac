@@ -33,6 +33,7 @@
     <option name="DOCUMENTATION_COLOR" value="35557" />
     <option name="ERROR_HINT" value="ab1818" />
     <option name="FILESTATUS_OBSOLETE" value="ffcb6b" />
+    <option name="FILESTATUS_RENAMED" value="70aeff" />
     <option name="LINE_NUMBERS_COLOR" value="ffffff" />
     <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="ffe300" />
     <option name="METHOD_SEPARATORS_COLOR" value="ffe1" />
