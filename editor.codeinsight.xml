@@ -1,5 +1,6 @@
 <application>
   <component name="Go">
+    <option name="renameCorrespondingTestOrProductionFile" value="YES" />
     <option name="renameSearchNonCodeForFunction" value="true" />
     <option name="renameSearchNonCodeForType" value="true" />
     <option name="renameSearchNonCodeForVariable" value="true" />
@@ -7,6 +8,5 @@
   <component name="GoFoldingSettings">
     <option name="isOneLineReturns" value="false" />
     <option name="isOneLinePanics" value="false" />
-    <option name="isFmtStrings" value="false" />
   </component>
 </application>
