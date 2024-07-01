@@ -4,6 +4,7 @@
       <w>aclick</w>
       <w>adzone</w>
       <w>bclick</w>
+      <w>bfomonitor</w>
       <w>cbds</w>
       <w>chatgpt</w>
       <w>conns</w>
@@ -30,6 +31,7 @@
       <w>tiao</w>
       <w>toutiao</w>
       <w>ulink</w>
+      <w>untts</w>
     </words>
   </component>
 </application>
