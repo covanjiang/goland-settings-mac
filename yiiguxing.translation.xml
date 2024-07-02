@@ -70,12 +70,13 @@
     <option name="keepFormat" value="true" />
   </component>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1719559457652" />
+    <option name="lastTrimTime" value="1679885187176" />
+  </component>
+  <component name="Translation.Settings">
+    <option name="translator" value="MICROSOFT" />
   </component>
   <component name="Translation.States">
     <histories>
-      <item value="Restore marks the UserAuthInfo as not deleted." />
-      <item value="banned" />
       <item value="Double and clamp for next time." />
       <item value="Add 10% jitter." />
       <item value="Once Shutdown has been called on a server, it may not be reused; future calls to methods such as Serve will return ErrServerClosed." />
@@ -124,11 +125,13 @@
       <item value="The functions JoinHostPort and SplitHostPort manipulate a pair of host and port in this form." />
       <item value="The zone specifies the scope of the literal IPv6 address as defined in RFC 4007." />
       <item value="it must be enclosed in square brackets," />
+      <item value="literal" />
+      <item value="generate a base64url-encoded random key of given length in byte" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="78" />
-        <entry key="ENGLISH" value="79" />
+        <entry key="CHINESE" value="76" />
+        <entry key="ENGLISH" value="77" />
       </map>
     </option>
   </component>
