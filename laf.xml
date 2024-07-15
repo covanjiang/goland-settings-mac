@@ -3,6 +3,7 @@
     <laf themeId="MONOKAI" />
     <lafs-to-previous-schemes>
       <laf-to-scheme laf="ExperimentalDark" scheme="_@user_Monokai Pro (Material)" />
+      <laf-to-scheme laf="OCEANIC" scheme="_@user_Monokai Pro (Material)" />
     </lafs-to-previous-schemes>
   </component>
 </application>
