@@ -74,6 +74,8 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="Dequeue queries given queues in order and pops a task message off a queue if one exists and returns the message and its lease expiration time. Dequeue skips a queue if the queue is paused. If all queues are empty, ErrNoProcessableTask error is returned." />
+      <item value="queues returns a list of queues to query. Order of the queue names is based on the priority of each queue. Queue names is sorted by their priority level if strict-priority is true. If strict-priority is false, then the order of queue names are roughly based on the priority level but randomized in order to avoid starving low priority queues." />
       <item value="A forwarder is responsible for moving scheduled and retry tasks to pending state so that the tasks get processed by the workers." />
       <item value="heartbeater is responsible for writing process info to redis periodically to indicate that the background worker process is up." />
       <item value="Try sync one last time before shutting down." />
@@ -122,13 +124,11 @@
       <item value="The duration of the rate oscillation period" />
       <item value="the uniform distribution" />
       <item value="registry" />
-      <item value="Create a summary to track fictional interservice RPC latencies for three distinct services with different latency distributions. These services are differentiated via a &quot;service&quot; label." />
-      <item value="The current value of the average. After adding with Add(), this is updated to reflect the average of all values seen thus far." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="89" />
-        <entry key="ENGLISH" value="90" />
+        <entry key="CHINESE" value="91" />
+        <entry key="ENGLISH" value="92" />
       </map>
     </option>
   </component>
