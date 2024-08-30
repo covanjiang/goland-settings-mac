@@ -70,13 +70,13 @@
     <option name="keepFormat" value="true" />
   </component>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1679885187176" />
-  </component>
-  <component name="Translation.Settings">
-    <option name="translator" value="MICROSOFT" />
+    <option name="lastTrimTime" value="1724989914185" />
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="See rdb.RDB as a reference implementation." />
+      <item value="Broker is a message broker that supports operations to manage task queues." />
+      <item value="A Client is responsible for scheduling tasks. A Client is used to register tasks that should be processed immediately or some time in the future. Clients are safe for concurrent use by multiple goroutines." />
       <item value="Double and clamp for next time." />
       <item value="Add 10% jitter." />
       <item value="Once Shutdown has been called on a server, it may not be reused; future calls to methods such as Serve will return ErrServerClosed." />
@@ -124,14 +124,11 @@
       <item value="When using TCP, and the host resolves to multiple IP addresses, Dial will try each IP address in order until one succeeds." />
       <item value="The functions JoinHostPort and SplitHostPort manipulate a pair of host and port in this form." />
       <item value="The zone specifies the scope of the literal IPv6 address as defined in RFC 4007." />
-      <item value="it must be enclosed in square brackets," />
-      <item value="literal" />
-      <item value="generate a base64url-encoded random key of given length in byte" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="76" />
-        <entry key="ENGLISH" value="77" />
+        <entry key="CHINESE" value="79" />
+        <entry key="ENGLISH" value="80" />
       </map>
     </option>
   </component>
