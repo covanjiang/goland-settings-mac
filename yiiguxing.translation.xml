@@ -74,6 +74,14 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="A forwarder is responsible for moving scheduled and retry tasks to pending state so that the tasks get processed by the workers." />
+      <item value="heartbeater is responsible for writing process info to redis periodically to indicate that the background worker process is up." />
+      <item value="Try sync one last time before shutting down." />
+      <item value="syncer is responsible for queuing up failed requests to redis and retry those requests to sync state between the background process and redis." />
+      <item value="TODO: Create a helper to check for zero value and fall back to default (e.g. getDurationOrDefault())" />
+      <item value="reate a helper to check for zero value and fall back to default (e.g. getDurationOrDefault())" />
+      <item value="composeOptions merges user provided options into the default options and returns the composed option. It also validates the user provided options and returns an error if any of the user provided options fail the validations." />
+      <item value="ProcessIn returns an option to specify when to process the given task relative to the current time. If there's a conflicting ProcessAt option, the last option passed to Enqueue overrides the others." />
       <item value="EnqueueUnique inserts the given task if the task's uniqueness lock can be acquired. It returns ErrDuplicateTask if the lock cannot be acquired." />
       <item value="Enqueue enqueues the given task to a queue. Enqueue returns TaskInfo and nil error if the task is enqueued successfully, otherwise returns a non-nil error. The argument opts specifies the behavior of task processing. If there are conflicting Option values the last one overrides others. Any options provided to NewTask can be overridden by options passed to Enqueue. By default, max retry is set to 25 and timeout is set to 30 minutes. If no ProcessAt or ProcessIn options are provided, the task will be pending immediately. Enqueue uses context.Background internally; to specify the context, use EnqueueContext." />
       <item value="underlying" />
@@ -116,19 +124,11 @@
       <item value="registry" />
       <item value="Create a summary to track fictional interservice RPC latencies for three distinct services with different latency distributions. These services are differentiated via a &quot;service&quot; label." />
       <item value="The current value of the average. After adding with Add(), this is updated to reflect the average of all values seen thus far." />
-      <item value="A SimpleEWMA represents the exponentially weighted moving average of a series of numbers. It WILL have different behavior than the VariableEWMA for multiple reasons. It has no warm-up period and it uses a constant decay. These properties let it use less memory. It will also behave differently when it's equal to zero, which is assumed to mean uninitialized, so if a value is likely to actually become zero over time, then any non-zero value will cause a sharp jump instead of a small change. However, note that this takes a long time, and the value may just decays to a stable value that's close to zero, but which won't be mistaken for uninitialized. See http:play.golang.orgplitxBDr_RC for example." />
-      <item value="VariableEWMA represents the exponentially weighted moving average of a series of numbers. Unlike SimpleEWMA, it supports a custom age, and thus uses more memory." />
-      <item value="NewMovingAverage constructs a MovingAverage that computes an average with the desired characteristics in the moving window or exponential decay. If no age is given, it constructs a default exponentially weighted implementation that consumes minimal memory. The age is related to the decay factor alpha by the formula given for the DECAY constant. It signifies the average age of the samples as time goes to infinity." />
-      <item value="DialContext specifies the dial function for creating unencrypted TCP connections. If DialContext is nil (and the deprecated Dial below is also nil), then the transport dials using package net. DialContext runs concurrently with calls to RoundTrip. A RoundTrip call that initiates a dial may end up using a connection dialed previously when the earlier connection becomes idle before the later DialContext completes." />
-      <item value="DialContext connects to the address on the named network using the provided context. The provided Context must be non-nil. If the context expires before the connection is complete, an error is returned. Once successfully connected, any expiration of the context will not affect the connection. When using TCP, and the host in the address parameter resolves to multiple network addresses, any dial timeout (from d.Timeout or ctx) is spread over each consecutive dial, such that each is given an appropriate fraction of the time to connect. For example, if a host has 4 IP addresses and the timeout is 1 minute, the connect to each single address will be given 15 seconds to complete before trying the next one. See func Dial for a description of the network and address parameters." />
-      <item value="Dial uses context.Background internally; to specify the context, use DialContext." />
-      <item value="For TCP, UDP and IP networks, if the host is empty or a literal unspecified IP address, as in &quot;:80&quot;, &quot;0.0.0.0:80&quot; or &quot;[::]:80&quot; for TCP and UDP, &quot;&quot;, &quot;0.0.0.0&quot; or &quot;::&quot; for IP, the local system is assumed." />
-      <item value="For IP networks, the network must be &quot;ip&quot;, &quot;ip4&quot; or &quot;ip6&quot; followed by a colon and a literal protocol number or a protocol name, and the address has the form &quot;host&quot;. The host must be a literal IP address or a literal IPv6 address with zone. It depends on each operating system how the operating system behaves with a non-well known protocol number such as &quot;0&quot; or &quot;255&quot;." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="82" />
-        <entry key="ENGLISH" value="83" />
+        <entry key="CHINESE" value="89" />
+        <entry key="ENGLISH" value="90" />
       </map>
     </option>
   </component>
