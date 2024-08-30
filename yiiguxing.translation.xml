@@ -72,6 +72,11 @@
   <component name="Translation.Cache">
     <option name="lastTrimTime" value="1724989914185" />
   </component>
+  <component name="Translation.Settings">
+    <option name="primaryLanguage" value="CHINESE" />
+    <option name="translator" value="GOOGLE" />
+    <option name="ttsEngine" value="GOOGLE" />
+  </component>
   <component name="Translation.States">
     <histories>
       <item value="sema is a counting semaphore to ensure the number of active workers does not exceed the limit." />
