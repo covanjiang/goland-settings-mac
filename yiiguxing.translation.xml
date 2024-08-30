@@ -74,6 +74,11 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="sema is a counting semaphore to ensure the number of active workers does not exceed the limit." />
+      <item value="An aggregator is responsible for checking groups and aggregate into one task if any of the grouping condition is met." />
+      <item value="healthchecker is responsible for pinging broker periodically and call user provided HeathCheckFunc with the ping result." />
+      <item value="A janitor is responsible for deleting expired completed tasks from the specified queues. It periodically checks for any expired tasks in the completed set, and deletes them." />
+      <item value="Sleep to avoid slamming redis and let scheduler move tasks into queues. Note: We are not using blocking pop operation and polling queues instead. This adds significant load to redis." />
       <item value="Dequeue queries given queues in order and pops a task message off a queue if one exists and returns the message and its lease expiration time. Dequeue skips a queue if the queue is paused. If all queues are empty, ErrNoProcessableTask error is returned." />
       <item value="queues returns a list of queues to query. Order of the queue names is based on the priority of each queue. Queue names is sorted by their priority level if strict-priority is true. If strict-priority is false, then the order of queue names are roughly based on the priority level but randomized in order to avoid starving low priority queues." />
       <item value="A forwarder is responsible for moving scheduled and retry tasks to pending state so that the tasks get processed by the workers." />
@@ -119,16 +124,11 @@
       <item value="Reader is the interface that wraps the basic Read method. Read reads up to len(p) bytes into p. It returns the number of bytes read (0 &lt;= n &lt;= len(p)) and any error encountered. Even if Read returns n &lt; len(p), it may use all of p as scratch space during the call. If some data is available but not len(p) bytes, Read conventionally returns what is available instead of waiting for more. When Read encounters an error or end-of-file condition after successfully reading n &gt; 0 bytes, it returns the number of bytes read. It may return the (non-nil) error from the same call or return the error (and n == 0) from a subsequent call. An instance of this general case is that a Reader returning a non-zero number of bytes at the end of the input stream may return either err == EOF or err == nil. The next Read should return 0, EOF. Callers should always process the n &gt; 0 bytes returned before considering the error err. Doing so correctly handles IO errors that happen after reading some bytes and also both of the allowed EOF behaviors. Implementations of Read are discouraged from returning a zero byte count with a nil error, except when len(p) == 0. Callers should treat a return of 0 and nil as indicating that nothing happened; in particular it does not indicate EOF. Implementations must not retain p." />
       <item value="BigEndian is the big-endian implementation of ByteOrder and AppendByteOrder." />
       <item value="LittleEndian is the little-endian implementation of ByteOrder and AppendByteOrder." />
-      <item value="leverage" />
-      <item value="The same as above, but now as a histogram, and only for the normal distribution. The histogram features both conventional buckets as well as sparse buckets, the latter needed for the experimental native histograms (ingested by a Prometheus server v2.40 with the corresponding feature flag enabled). The conventional buckets are targeted to the parameters of the normal distribution, with 20 buckets centered on the mean, each half-sigma wide. The sparse buckets are always centered on zero, with a growth factor of one bucket to the next of (at most) 1.1. (The precise factor is 2^2^-3 = 1.0905077...)" />
-      <item value="The duration of the rate oscillation period" />
-      <item value="the uniform distribution" />
-      <item value="registry" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="91" />
-        <entry key="ENGLISH" value="92" />
+        <entry key="CHINESE" value="96" />
+        <entry key="ENGLISH" value="97" />
       </map>
     </option>
   </component>
