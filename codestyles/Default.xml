@@ -1,4 +1,5 @@
 <code_scheme name="Default" version="173">
+  <option name="RIGHT_MARGIN" value="192" />
   <GoCodeStyleSettings>
     <option name="REMOVE_REDUNDANT_IMPORT_ALIASES" value="true" />
     <option name="ADD_LEADING_SPACE_TO_COMMENTS" value="true" />
