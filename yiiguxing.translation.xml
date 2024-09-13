@@ -70,15 +70,15 @@
     <option name="keepFormat" value="true" />
   </component>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1724989914185" />
+    <option name="lastTrimTime" value="1726218484105" />
   </component>
   <component name="Translation.Settings">
     <option name="primaryLanguage" value="CHINESE" />
-    <option name="translator" value="GOOGLE" />
     <option name="ttsEngine" value="GOOGLE" />
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="payload holds data needed to perform the task." />
       <item value="sema is a counting semaphore to ensure the number of active workers does not exceed the limit." />
       <item value="An aggregator is responsible for checking groups and aggregate into one task if any of the grouping condition is met." />
       <item value="healthchecker is responsible for pinging broker periodically and call user provided HeathCheckFunc with the ping result." />
@@ -128,12 +128,11 @@
       <item value="The server is not started at this point." />
       <item value="Reader is the interface that wraps the basic Read method. Read reads up to len(p) bytes into p. It returns the number of bytes read (0 &lt;= n &lt;= len(p)) and any error encountered. Even if Read returns n &lt; len(p), it may use all of p as scratch space during the call. If some data is available but not len(p) bytes, Read conventionally returns what is available instead of waiting for more. When Read encounters an error or end-of-file condition after successfully reading n &gt; 0 bytes, it returns the number of bytes read. It may return the (non-nil) error from the same call or return the error (and n == 0) from a subsequent call. An instance of this general case is that a Reader returning a non-zero number of bytes at the end of the input stream may return either err == EOF or err == nil. The next Read should return 0, EOF. Callers should always process the n &gt; 0 bytes returned before considering the error err. Doing so correctly handles IO errors that happen after reading some bytes and also both of the allowed EOF behaviors. Implementations of Read are discouraged from returning a zero byte count with a nil error, except when len(p) == 0. Callers should treat a return of 0 and nil as indicating that nothing happened; in particular it does not indicate EOF. Implementations must not retain p." />
       <item value="BigEndian is the big-endian implementation of ByteOrder and AppendByteOrder." />
-      <item value="LittleEndian is the little-endian implementation of ByteOrder and AppendByteOrder." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="96" />
-        <entry key="ENGLISH" value="97" />
+        <entry key="CHINESE" value="97" />
+        <entry key="ENGLISH" value="98" />
       </map>
     </option>
   </component>
