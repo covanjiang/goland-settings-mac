@@ -4,6 +4,7 @@
       <w>aclick</w>
       <w>adzone</w>
       <w>bclick</w>
+      <w>bilibili</w>
       <w>cbds</w>
       <w>chatgpt</w>
       <w>conns</w>
@@ -26,9 +27,12 @@
       <w>preg</w>
       <w>provcity</w>
       <w>qianchuan</w>
+      <w>qutoutiao</w>
+      <w>superhuichuan</w>
       <w>tiao</w>
       <w>toutiao</w>
       <w>ulink</w>
+      <w>weixin</w>
     </words>
   </component>
 </application>
