@@ -78,6 +78,7 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="ParseStandard returns a new crontab schedule representing the given standardSpec (https:en.wikipedia.orgwikiCron). It requires 5 entries representing: minute, hour, day of month, month and day of week, in that order. It returns a descriptive error if the spec is not valid. It accepts - Standard crontab specs, e.g. &quot; ?&quot; - Descriptors, e.g. &quot;@midnight&quot;, &quot;@every 1h30m&quot;" />
       <item value="Getwd returns a rooted path name corresponding to the current directory. If the current directory can be reached via multiple paths (due to symbolic links), Getwd may return any one of them." />
       <item value="MaxBackups is the maximum number of old log files to retain. The default is to retain all old log files (though MaxAge may still cause them to get deleted.)" />
       <item value="payload holds data needed to perform the task." />
@@ -127,13 +128,12 @@
       <item value="Send first packet of payload together with request, in favor of small requests" />
       <item value="Commands lists the available commands and help topics. The order here is the order in which they are printed by 'go help'. Note that subcommands are in general best avoided." />
       <item value="The following are neccesary as they register handlers in their init functions." />
-      <item value="The server is not started at this point." />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="97" />
-        <entry key="CHINESE_SIMPLIFIED" value="2" />
-        <entry key="ENGLISH" value="100" />
+        <entry key="CHINESE_SIMPLIFIED" value="3" />
+        <entry key="ENGLISH" value="101" />
       </map>
     </option>
   </component>
