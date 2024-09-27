@@ -78,6 +78,7 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="Getwd returns a rooted path name corresponding to the current directory. If the current directory can be reached via multiple paths (due to symbolic links), Getwd may return any one of them." />
       <item value="MaxBackups is the maximum number of old log files to retain. The default is to retain all old log files (though MaxAge may still cause them to get deleted.)" />
       <item value="payload holds data needed to perform the task." />
       <item value="sema is a counting semaphore to ensure the number of active workers does not exceed the limit." />
@@ -127,13 +128,12 @@
       <item value="Commands lists the available commands and help topics. The order here is the order in which they are printed by 'go help'. Note that subcommands are in general best avoided." />
       <item value="The following are neccesary as they register handlers in their init functions." />
       <item value="The server is not started at this point." />
-      <item value="Reader is the interface that wraps the basic Read method. Read reads up to len(p) bytes into p. It returns the number of bytes read (0 &lt;= n &lt;= len(p)) and any error encountered. Even if Read returns n &lt; len(p), it may use all of p as scratch space during the call. If some data is available but not len(p) bytes, Read conventionally returns what is available instead of waiting for more. When Read encounters an error or end-of-file condition after successfully reading n &gt; 0 bytes, it returns the number of bytes read. It may return the (non-nil) error from the same call or return the error (and n == 0) from a subsequent call. An instance of this general case is that a Reader returning a non-zero number of bytes at the end of the input stream may return either err == EOF or err == nil. The next Read should return 0, EOF. Callers should always process the n &gt; 0 bytes returned before considering the error err. Doing so correctly handles IO errors that happen after reading some bytes and also both of the allowed EOF behaviors. Implementations of Read are discouraged from returning a zero byte count with a nil error, except when len(p) == 0. Callers should treat a return of 0 and nil as indicating that nothing happened; in particular it does not indicate EOF. Implementations must not retain p." />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="97" />
-        <entry key="CHINESE_SIMPLIFIED" value="1" />
-        <entry key="ENGLISH" value="99" />
+        <entry key="CHINESE_SIMPLIFIED" value="2" />
+        <entry key="ENGLISH" value="100" />
       </map>
     </option>
   </component>
