@@ -78,6 +78,10 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="ObserveDuration records the duration passed since the Timer was created with NewTimer. It calls the Observe method of the Observer provided during construction with the duration in seconds as an argument. The observed duration is also returned. ObserveDuration is usually called with a defer statement. Note that this method is only guaranteed to never observe negative durations if used with Go1.9+." />
+      <item value="NewTimer creates a new Timer. The provided Observer is used to observe a duration in seconds. Timer is usually used to time a function call in the following way: func TimeMe() { timer := NewTimer(myHistogram) defer timer.ObserveDuration() Do actual work. }" />
+      <item value="Timer is a helper type to time functions. Use NewTimer to create new instances." />
+      <item value="UniversalClient is an abstract client which - based on the provided options - represents either a ClusterClient, a FailoverClient, or a single-node Client. This can be useful for testing cluster-specific applications locally or having different clients in different environments." />
       <item value="Timeout for socket writes. If reached, commands will fail with a timeout instead of blocking. Supported values: - `0` - default timeout (3 seconds). - `-1` - no timeout (block indefinitely). - `-2` - disables SetWriteDeadline calls completely." />
       <item value="Timeout for socket reads. If reached, commands will fail with a timeout instead of blocking. Supported values: - `0` - default timeout (3 seconds). - `-1` - no timeout (block indefinitely). - `-2` - disables SetReadDeadline calls completely." />
       <item value="Mask is an optional rune that sets which character to display instead of the entered characters. This allows hiding private information like passwords." />
@@ -124,16 +128,12 @@
       <item value="Cobra supports Persistent Flags which will work for this command and all subcommands, e.g.: serverCmd.PersistentFlags().String(&quot;foo&quot;, &quot;&quot;, &quot;A help for foo&quot;)" />
       <item value="here you will define your flags and configuration settings." />
       <item value="Contributor Covenant Code of Conduct" />
-      <item value="Struct Credit has methods on both value and pointer receivers. Such usage is not recommended by the Go Documentation." />
-      <item value="scene" />
-      <item value="Report Recent Consumption" />
-      <item value="Logfile" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="97" />
-        <entry key="CHINESE_SIMPLIFIED" value="7" />
-        <entry key="ENGLISH" value="105" />
+        <entry key="CHINESE_SIMPLIFIED" value="11" />
+        <entry key="ENGLISH" value="109" />
       </map>
     </option>
   </component>
