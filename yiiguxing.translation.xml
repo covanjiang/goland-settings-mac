@@ -78,6 +78,8 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="Timeout for socket writes. If reached, commands will fail with a timeout instead of blocking. Supported values: - `0` - default timeout (3 seconds). - `-1` - no timeout (block indefinitely). - `-2` - disables SetWriteDeadline calls completely." />
+      <item value="Timeout for socket reads. If reached, commands will fail with a timeout instead of blocking. Supported values: - `0` - default timeout (3 seconds). - `-1` - no timeout (block indefinitely). - `-2` - disables SetReadDeadline calls completely." />
       <item value="Mask is an optional rune that sets which character to display instead of the entered characters. This allows hiding private information like passwords." />
       <item value="AllowEdit lets the user edit the default value. If false, any key press other than &lt;Enter&gt; automatically clears the default value." />
       <item value="ParseStandard returns a new crontab schedule representing the given standardSpec (https:en.wikipedia.orgwikiCron). It requires 5 entries representing: minute, hour, day of month, month and day of week, in that order. It returns a descriptive error if the spec is not valid. It accepts - Standard crontab specs, e.g. &quot; ?&quot; - Descriptors, e.g. &quot;@midnight&quot;, &quot;@every 1h30m&quot;" />
@@ -126,14 +128,12 @@
       <item value="scene" />
       <item value="Report Recent Consumption" />
       <item value="Logfile" />
-      <item value="Send first packet of payload together with request, in favor of small requests." />
-      <item value="Send first packet of payload together with request, in favor of small requests" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="97" />
-        <entry key="CHINESE_SIMPLIFIED" value="5" />
-        <entry key="ENGLISH" value="103" />
+        <entry key="CHINESE_SIMPLIFIED" value="7" />
+        <entry key="ENGLISH" value="105" />
       </map>
     </option>
   </component>
