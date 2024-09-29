@@ -32,9 +32,13 @@
       <w>qutoutiao</w>
       <w>superhuichuan</w>
       <w>tiao</w>
+      <w>tonumber</w>
       <w>toutiao</w>
       <w>ulink</w>
       <w>weixin</w>
+      <w>zrangebyscore</w>
+      <w>zrem</w>
+      <w>zset</w>
     </words>
   </component>
 </application>
