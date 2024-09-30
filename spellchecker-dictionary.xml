@@ -38,6 +38,7 @@
       <w>weixin</w>
       <w>zrangebyscore</w>
       <w>zrem</w>
+      <w>zremrangebyscore</w>
       <w>zset</w>
     </words>
   </component>
