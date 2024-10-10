@@ -78,6 +78,8 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="Close shuts down the producer and waits for any buffered messages to be flushed. You must call this function before a producer object passes out of scope, as it may otherwise leak memory. You must call this before process shutting down, or you may lose messages. You must call this before calling Close on the underlying client." />
+      <item value="AsyncClose triggers a shutdown of the producer. The shutdown has completed when both the Errors and Successes channels have been closed. When calling AsyncClose, you must continue to read from those channels in order to drain the results of any messages in flight." />
       <item value="Errors is the error output channel back to the user. You MUST read from this channel or the Producer will deadlock when the channel is full. Alternatively, you can set Producer.Return.Errors in your config to false, which prevents errors to be returned." />
       <item value="Successes is the success output channel back to the user when Return.Successes is enabled. If Return.Successes is true, you MUST read from this channel or the Producer will deadlock. It is suggested that you send and read messages together in a single select statement." />
       <item value="highWatermark tracks the &quot;current&quot; retry level, which is the only one where we actually let messages through, all other messages get buffered in retryState[msg.retries].buf to preserve ordering retryState[msg.retries].expectChaser simply tracks whether we've seen a fin message for a given level (and therefore whether our buffer is complete and safe to flush)" />
@@ -126,14 +128,12 @@
       <item value="heartbeater is responsible for writing process info to redis periodically to indicate that the background worker process is up." />
       <item value="Try sync one last time before shutting down." />
       <item value="syncer is responsible for queuing up failed requests to redis and retry those requests to sync state between the background process and redis." />
-      <item value="TODO: Create a helper to check for zero value and fall back to default (e.g. getDurationOrDefault())" />
-      <item value="reate a helper to check for zero value and fall back to default (e.g. getDurationOrDefault())" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="97" />
-        <entry key="CHINESE_SIMPLIFIED" value="39" />
-        <entry key="ENGLISH" value="137" />
+        <entry key="CHINESE_SIMPLIFIED" value="41" />
+        <entry key="ENGLISH" value="139" />
       </map>
     </option>
   </component>
