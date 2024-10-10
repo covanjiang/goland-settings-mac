@@ -78,6 +78,13 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="CompressionLevelDefault is the constant to use in CompressionLevel to have the default compression level for any codec. The value is picked that we don't use any existing compression levels." />
+      <item value="Bit 3 set for &quot;LogAppend&quot; timestamps" />
+      <item value="The lowest 3 bits contain the compression codec used for the message" />
+      <item value="If enabled, successfully delivered messages will be returned on the Successes channel (default disabled)." />
+      <item value="The level of compression to use on messages. The meaning depends on the actual compression type used and defaults to default compression level for the codec." />
+      <item value="Generates partitioners for choosing the partition to send messages to (defaults to hashing the message key). Similar to the `partitioner.class` setting for the JVM producer." />
+      <item value="RequiresConsistency indicates to the user of the partitioner whether the mapping of key-&gt;partition is consistent or not. Specifically, if a partitioner requires consistency then it must be allowed to choose from all partitions (even ones known to be unavailable), and its choice must be respected by the caller. The obvious example is the HashPartitioner." />
       <item value="Called to compute backoff time dynamically. Useful for implementing more sophisticated backoff strategies. This takes precedence over `Backoff` if set." />
       <item value="How long to wait for the cluster to settle between retries (default 100ms). Similar to the `retry.backoff.ms` setting of the JVM producer." />
       <item value="Retry struct { The total number of times to retry sending a message (default 3). Similar to the `message.send.max.retries` setting of the JVM producer. Max int How long to wait for the cluster to settle between retries (default 100ms). Similar to the `retry.backoff.ms` setting of the JVM producer. Backoff time.Duration Called to compute backoff time dynamically. Useful for implementing more sophisticated backoff strategies. This takes precedence over `Backoff` if set. BackoffFunc func(retries, maxRetries int) time.Duration }" />
@@ -121,19 +128,12 @@
       <item value="Broker is a message broker that supports operations to manage task queues." />
       <item value="A Client is responsible for scheduling tasks. A Client is used to register tasks that should be processed immediately or some time in the future. Clients are safe for concurrent use by multiple goroutines." />
       <item value="Double and clamp for next time." />
-      <item value="Add 10% jitter." />
-      <item value="Once Shutdown has been called on a server, it may not be reused; future calls to methods such as Serve will return ErrServerClosed." />
-      <item value="Shutdown does not attempt to close nor wait for hijacked connections such as WebSockets. The caller of Shutdown should separately notify such long-lived connections of shutdown and wait for them to close, if desired. See RegisterOnShutdown for a way to register shutdown notification functions." />
-      <item value="When Shutdown is called, Serve, ListenAndServe, and ListenAndServeTLS immediately return ErrServerClosed. Make sure the program doesn't exit and waits instead for Shutdown to return." />
-      <item value="Shutdown gracefully shuts down the server without interrupting any active connections. Shutdown works by first closing all open listeners, then closing all idle connections, and then waiting indefinitely for connections to return to idle and then shut down. If the provided context expires before the shutdown is complete, Shutdown returns the context's error, otherwise it returns any error returned from closing the Server's underlying Listener(s)." />
-      <item value="The upper layer of the root directory is still the root directory. So &quot;..&quot; And &quot;.&quot; will be cleared for example 1. &quot;..&quot; or &quot;.&quot; =&gt; &quot;&quot; 2. &quot;.....&quot; or &quot;....&quot; =&gt; &quot;...&quot; 3. &quot;...x.&quot; or &quot;..x.&quot; =&gt; &quot;.x.&quot; 4. &quot;x\\y&quot; = &gt; &quot;zx&quot;" />
-      <item value="RemoveAll removes path and any children it contains. It removes everything it can but returns the first error it encounters. If the path does not exist, RemoveAll returns nil (no error). If there is an error, it will be of type PathError." />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="97" />
-        <entry key="CHINESE_SIMPLIFIED" value="20" />
-        <entry key="ENGLISH" value="118" />
+        <entry key="CHINESE_SIMPLIFIED" value="28" />
+        <entry key="ENGLISH" value="126" />
       </map>
     </option>
   </component>
