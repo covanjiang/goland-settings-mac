@@ -78,6 +78,8 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="highWatermark tracks the &quot;current&quot; retry level, which is the only one where we actually let messages through, all other messages get buffered in retryState[msg.retries].buf to preserve ordering retryState[msg.retries].expectChaser simply tracks whether we've seen a fin message for a given level (and therefore whether our buffer is complete and safe to flush)" />
+      <item value="Called to compute backoff time dynamically. Useful for implementing more sophisticated backoff strategies. This takes precedence over `Backoff` if set." />
       <item value="The best-effort frequency of flushes. Equivalent to `queue.buffering.max.ms` setting of JVM producer." />
       <item value="The best-effort number of bytes needed to trigger a flush. Use the global sarama.MaxRequestSize to set a hard upper limit." />
       <item value="The following config options control how often messages are batched up and sent to the broker. By default, messages are sent as fast as possible, and all messages received while the current batch is in-flight are placed into the subsequent batch." />
@@ -91,7 +93,6 @@
       <item value="If enabled, successfully delivered messages will be returned on the Successes channel (default disabled)." />
       <item value="Generates partitioners for choosing the partition to send messages to (defaults to hashing the message key). Similar to the `partitioner.class` setting for the JVM producer." />
       <item value="RequiresConsistency indicates to the user of the partitioner whether the mapping of key-&gt;partition is consistent or not. Specifically, if a partitioner requires consistency then it must be allowed to choose from all partitions (even ones known to be unavailable), and its choice must be respected by the caller. The obvious example is the HashPartitioner." />
-      <item value="Called to compute backoff time dynamically. Useful for implementing more sophisticated backoff strategies. This takes precedence over `Backoff` if set." />
       <item value="How long to wait for the cluster to settle between retries (default 100ms). Similar to the `retry.backoff.ms` setting of the JVM producer." />
       <item value="Retry struct { The total number of times to retry sending a message (default 3). Similar to the `message.send.max.retries` setting of the JVM producer. Max int How long to wait for the cluster to settle between retries (default 100ms). Similar to the `retry.backoff.ms` setting of the JVM producer. Backoff time.Duration Called to compute backoff time dynamically. Useful for implementing more sophisticated backoff strategies. This takes precedence over `Backoff` if set. BackoffFunc func(retries, maxRetries int) time.Duration }" />
       <item value="RequiredAcks is used in Produce Requests to tell the broker how many replica acknowledgements it must see before responding. Any of the constants defined here are valid. On broker versions prior to 0.8.2.0 any other positive int16 is also valid (the broker will wait for that many acknowledgements) but in 0.8.2.0 and later this will raise an exception (it has been replaced by setting the `min.isr` value in the brokers configuration)." />
@@ -127,13 +128,12 @@
       <item value="reate a helper to check for zero value and fall back to default (e.g. getDurationOrDefault())" />
       <item value="composeOptions merges user provided options into the default options and returns the composed option. It also validates the user provided options and returns an error if any of the user provided options fail the validations." />
       <item value="ProcessIn returns an option to specify when to process the given task relative to the current time. If there's a conflicting ProcessAt option, the last option passed to Enqueue overrides the others." />
-      <item value="EnqueueUnique inserts the given task if the task's uniqueness lock can be acquired. It returns ErrDuplicateTask if the lock cannot be acquired." />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="97" />
-        <entry key="CHINESE_SIMPLIFIED" value="35" />
-        <entry key="ENGLISH" value="133" />
+        <entry key="CHINESE_SIMPLIFIED" value="37" />
+        <entry key="ENGLISH" value="135" />
       </map>
     </option>
   </component>
