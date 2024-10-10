@@ -78,6 +78,9 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="Called to compute backoff time dynamically. Useful for implementing more sophisticated backoff strategies. This takes precedence over `Backoff` if set." />
+      <item value="How long to wait for the cluster to settle between retries (default 100ms). Similar to the `retry.backoff.ms` setting of the JVM producer." />
+      <item value="Retry struct { The total number of times to retry sending a message (default 3). Similar to the `message.send.max.retries` setting of the JVM producer. Max int How long to wait for the cluster to settle between retries (default 100ms). Similar to the `retry.backoff.ms` setting of the JVM producer. Backoff time.Duration Called to compute backoff time dynamically. Useful for implementing more sophisticated backoff strategies. This takes precedence over `Backoff` if set. BackoffFunc func(retries, maxRetries int) time.Duration }" />
       <item value="RequiredAcks is used in Produce Requests to tell the broker how many replica acknowledgements it must see before responding. Any of the constants defined here are valid. On broker versions prior to 0.8.2.0 any other positive int16 is also valid (the broker will wait for that many acknowledgements) but in 0.8.2.0 and later this will raise an exception (it has been replaced by setting the `min.isr` value in the brokers configuration)." />
       <item value="WaitForAll waits for all in-sync replicas to commit before responding. The minimum number of in-sync replicas is configured on the broker via the `min.insync.replicas` configuration key." />
       <item value="WaitForLocal waits for only the local commit to succeed before responding." />
@@ -125,15 +128,12 @@
       <item value="Shutdown gracefully shuts down the server without interrupting any active connections. Shutdown works by first closing all open listeners, then closing all idle connections, and then waiting indefinitely for connections to return to idle and then shut down. If the provided context expires before the shutdown is complete, Shutdown returns the context's error, otherwise it returns any error returned from closing the Server's underlying Listener(s)." />
       <item value="The upper layer of the root directory is still the root directory. So &quot;..&quot; And &quot;.&quot; will be cleared for example 1. &quot;..&quot; or &quot;.&quot; =&gt; &quot;&quot; 2. &quot;.....&quot; or &quot;....&quot; =&gt; &quot;...&quot; 3. &quot;...x.&quot; or &quot;..x.&quot; =&gt; &quot;.x.&quot; 4. &quot;x\\y&quot; = &gt; &quot;zx&quot;" />
       <item value="RemoveAll removes path and any children it contains. It removes everything it can but returns the first error it encounters. If the path does not exist, RemoveAll returns nil (no error). If there is an error, it will be of type PathError." />
-      <item value="tries to be 100% compatible with standard library behavior" />
-      <item value="create nested file" />
-      <item value="IsNotExist returns a boolean indicating whether the error is known to report that a file or directory does not exist. It is satisfied by ErrNotExist as well as some syscall errors. This function predates errors.Is. It only supports errors returned by the os package. New code should use errors.Is(err, fs.ErrNotExist)." />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="97" />
-        <entry key="CHINESE_SIMPLIFIED" value="17" />
-        <entry key="ENGLISH" value="115" />
+        <entry key="CHINESE_SIMPLIFIED" value="20" />
+        <entry key="ENGLISH" value="118" />
       </map>
     </option>
   </component>
