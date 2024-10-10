@@ -78,6 +78,8 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="Errors is the error output channel back to the user. You MUST read from this channel or the Producer will deadlock when the channel is full. Alternatively, you can set Producer.Return.Errors in your config to false, which prevents errors to be returned." />
+      <item value="Successes is the success output channel back to the user when Return.Successes is enabled. If Return.Successes is true, you MUST read from this channel or the Producer will deadlock. It is suggested that you send and read messages together in a single select statement." />
       <item value="highWatermark tracks the &quot;current&quot; retry level, which is the only one where we actually let messages through, all other messages get buffered in retryState[msg.retries].buf to preserve ordering retryState[msg.retries].expectChaser simply tracks whether we've seen a fin message for a given level (and therefore whether our buffer is complete and safe to flush)" />
       <item value="Called to compute backoff time dynamically. Useful for implementing more sophisticated backoff strategies. This takes precedence over `Backoff` if set." />
       <item value="The best-effort frequency of flushes. Equivalent to `queue.buffering.max.ms` setting of JVM producer." />
@@ -126,14 +128,12 @@
       <item value="syncer is responsible for queuing up failed requests to redis and retry those requests to sync state between the background process and redis." />
       <item value="TODO: Create a helper to check for zero value and fall back to default (e.g. getDurationOrDefault())" />
       <item value="reate a helper to check for zero value and fall back to default (e.g. getDurationOrDefault())" />
-      <item value="composeOptions merges user provided options into the default options and returns the composed option. It also validates the user provided options and returns an error if any of the user provided options fail the validations." />
-      <item value="ProcessIn returns an option to specify when to process the given task relative to the current time. If there's a conflicting ProcessAt option, the last option passed to Enqueue overrides the others." />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="97" />
-        <entry key="CHINESE_SIMPLIFIED" value="37" />
-        <entry key="ENGLISH" value="135" />
+        <entry key="CHINESE_SIMPLIFIED" value="39" />
+        <entry key="ENGLISH" value="137" />
       </map>
     </option>
   </component>
