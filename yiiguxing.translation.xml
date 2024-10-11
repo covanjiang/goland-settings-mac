@@ -78,6 +78,7 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="IsolationLevel support 2 mode: - use `ReadUncommitted` (default) to consume and return all messages in message channel - use `ReadCommitted` to hide messages that are part of an aborted transaction" />
       <item value="Close shuts down the producer and waits for any buffered messages to be flushed. You must call this function before a producer object passes out of scope, as it may otherwise leak memory. You must call this before process shutting down, or you may lose messages. You must call this before calling Close on the underlying client." />
       <item value="AsyncClose triggers a shutdown of the producer. The shutdown has completed when both the Errors and Successes channels have been closed. When calling AsyncClose, you must continue to read from those channels in order to drain the results of any messages in flight." />
       <item value="Errors is the error output channel back to the user. You MUST read from this channel or the Producer will deadlock when the channel is full. Alternatively, you can set Producer.Return.Errors in your config to false, which prevents errors to be returned." />
@@ -127,13 +128,12 @@
       <item value="A forwarder is responsible for moving scheduled and retry tasks to pending state so that the tasks get processed by the workers." />
       <item value="heartbeater is responsible for writing process info to redis periodically to indicate that the background worker process is up." />
       <item value="Try sync one last time before shutting down." />
-      <item value="syncer is responsible for queuing up failed requests to redis and retry those requests to sync state between the background process and redis." />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="97" />
-        <entry key="CHINESE_SIMPLIFIED" value="41" />
-        <entry key="ENGLISH" value="139" />
+        <entry key="CHINESE_SIMPLIFIED" value="42" />
+        <entry key="ENGLISH" value="140" />
       </map>
     </option>
   </component>
