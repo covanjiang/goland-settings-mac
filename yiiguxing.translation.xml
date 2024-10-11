@@ -78,6 +78,7 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="A rack identifier for this client. This can be any string value which indicates where this client is physically located. It corresponds with the broker config 'broker.rack'" />
       <item value="The maximum number of message bytes to fetch from the broker in a single request. Messages larger than this will return ErrMessageTooLarge and will not be consumable, so you must be sure this is at least as large as your largest message. Defaults to 0 (no limit). Similar to the JVM's `fetch.message.max.bytes`. The global `sarama.MaxResponseSize` still applies." />
       <item value="The default number of message bytes to fetch from the broker in each request (default 1MB). This should be larger than the majority of your messages, or else the consumer will spend a lot of time negotiating sizes and not actually consuming. Similar to the JVM's `fetch.message.max.bytes`." />
       <item value="The maximum amount of time the broker will wait for Consumer.Fetch.Min bytes to become available before it returns fewer than that anyways. The default is 250ms, since 0 causes the consumer to spin when no events are available. 100-500ms is a reasonable range for most cases. Kafka only supports precision up to milliseconds; nanoseconds will be truncated. Equivalent to the JVM's `fetch.max.wait.ms`." />
@@ -127,13 +128,12 @@
       <item value="healthchecker is responsible for pinging broker periodically and call user provided HeathCheckFunc with the ping result." />
       <item value="A janitor is responsible for deleting expired completed tasks from the specified queues. It periodically checks for any expired tasks in the completed set, and deletes them." />
       <item value="Sleep to avoid slamming redis and let scheduler move tasks into queues. Note: We are not using blocking pop operation and polling queues instead. This adds significant load to redis." />
-      <item value="Dequeue queries given queues in order and pops a task message off a queue if one exists and returns the message and its lease expiration time. Dequeue skips a queue if the queue is paused. If all queues are empty, ErrNoProcessableTask error is returned." />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="97" />
-        <entry key="CHINESE_SIMPLIFIED" value="46" />
-        <entry key="ENGLISH" value="144" />
+        <entry key="CHINESE_SIMPLIFIED" value="47" />
+        <entry key="ENGLISH" value="145" />
       </map>
     </option>
   </component>
