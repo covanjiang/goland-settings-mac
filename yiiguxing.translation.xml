@@ -78,6 +78,7 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="Message claimed" />
       <item value="Should return when `session.Context()` is done. If not, will raise `ErrRebalanceInProgress` or `read tcp &lt;ip&gt;:&lt;port&gt;: io timeout` when kafka rebalance. see:" />
       <item value="Do not move the code below to a goroutine. The `ConsumeClaim` itself is called within a goroutine, see: https:github.comIBMsaramablobmainconsumer_group.goL27-L29" />
       <item value="only the leader needs to check whether there are newly-added partitions in order to trigger a rebalance" />
@@ -127,13 +128,12 @@
       <item value="Timeout for socket writes. If reached, commands will fail with a timeout instead of blocking. Supported values: - `0` - default timeout (3 seconds). - `-1` - no timeout (block indefinitely). - `-2` - disables SetWriteDeadline calls completely." />
       <item value="Timeout for socket reads. If reached, commands will fail with a timeout instead of blocking. Supported values: - `0` - default timeout (3 seconds). - `-1` - no timeout (block indefinitely). - `-2` - disables SetReadDeadline calls completely." />
       <item value="Mask is an optional rune that sets which character to display instead of the entered characters. This allows hiding private information like passwords." />
-      <item value="AllowEdit lets the user edit the default value. If false, any key press other than &lt;Enter&gt; automatically clears the default value." />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="97" />
-        <entry key="CHINESE_SIMPLIFIED" value="56" />
-        <entry key="ENGLISH" value="154" />
+        <entry key="CHINESE_SIMPLIFIED" value="57" />
+        <entry key="ENGLISH" value="155" />
       </map>
     </option>
   </component>
