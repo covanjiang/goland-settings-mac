@@ -78,6 +78,7 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="only the leader needs to check whether there are newly-added partitions in order to trigger a rebalance" />
       <item value="NewConsumerGroupFromClient creates a new consumer group using the given client. It is still necessary to call Close() on the underlying client when shutting down this consumer. PLEASE NOTE: consumer groups can only re-use but not share clients." />
       <item value="Pause suspends fetching from the requested partitions. Future calls to the broker will not return any records from these partitions until they have been resumed using Resume()ResumeAll(). Note that this method does not affect partition subscription. In particular, it does not cause a group rebalance when automatic assignment is used." />
       <item value="Close stops the ConsumerGroup and detaches any running sessions. It is required to call this function before the object passes out of scope, as it will otherwise leak memory." />
@@ -127,13 +128,12 @@
       <item value="AllowEdit lets the user edit the default value. If false, any key press other than &lt;Enter&gt; automatically clears the default value." />
       <item value="ParseStandard returns a new crontab schedule representing the given standardSpec (https:en.wikipedia.orgwikiCron). It requires 5 entries representing: minute, hour, day of month, month and day of week, in that order. It returns a descriptive error if the spec is not valid. It accepts - Standard crontab specs, e.g. &quot; ?&quot; - Descriptors, e.g. &quot;@midnight&quot;, &quot;@every 1h30m&quot;" />
       <item value="Getwd returns a rooted path name corresponding to the current directory. If the current directory can be reached via multiple paths (due to symbolic links), Getwd may return any one of them." />
-      <item value="MaxBackups is the maximum number of old log files to retain. The default is to retain all old log files (though MaxAge may still cause them to get deleted.)" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="97" />
-        <entry key="CHINESE_SIMPLIFIED" value="53" />
-        <entry key="ENGLISH" value="151" />
+        <entry key="CHINESE_SIMPLIFIED" value="54" />
+        <entry key="ENGLISH" value="152" />
       </map>
     </option>
   </component>
