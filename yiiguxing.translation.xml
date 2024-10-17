@@ -78,6 +78,7 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="SetOutput method sets the output file for the current HTTP request. The current HTTP response will be saved in the given file. It is similar to the `curl -o` flag. Absolute path or relative path can be used. If it is a relative path, then the output file goes under the output directory, as mentioned in the [Client.SetOutputDirectory]. client.R(). SetOutput(&quot;UsersjeevaDownloadsReplyWithHeader-v5.1-beta.zip&quot;). Get(&quot;http:bit.ly1LouEKr&quot;) NOTE: In this scenario [Response.Body] might be nil." />
       <item value="PipeCursor is a pipe character &quot;|&quot; which appears before the input" />
       <item value="BlockCursor is a cursor which highlights a character by inverting colors" />
       <item value="DefaultCursor is a big square block character. Obscures whatever was" />
@@ -127,13 +128,12 @@
       <item value="RequiresConsistency indicates to the user of the partitioner whether the mapping of key-&gt;partition is consistent or not. Specifically, if a partitioner requires consistency then it must be allowed to choose from all partitions (even ones known to be unavailable), and its choice must be respected by the caller. The obvious example is the HashPartitioner." />
       <item value="How long to wait for the cluster to settle between retries (default 100ms). Similar to the `retry.backoff.ms` setting of the JVM producer." />
       <item value="Retry struct { The total number of times to retry sending a message (default 3). Similar to the `message.send.max.retries` setting of the JVM producer. Max int How long to wait for the cluster to settle between retries (default 100ms). Similar to the `retry.backoff.ms` setting of the JVM producer. Backoff time.Duration Called to compute backoff time dynamically. Useful for implementing more sophisticated backoff strategies. This takes precedence over `Backoff` if set. BackoffFunc func(retries, maxRetries int) time.Duration }" />
-      <item value="RequiredAcks is used in Produce Requests to tell the broker how many replica acknowledgements it must see before responding. Any of the constants defined here are valid. On broker versions prior to 0.8.2.0 any other positive int16 is also valid (the broker will wait for that many acknowledgements) but in 0.8.2.0 and later this will raise an exception (it has been replaced by setting the `min.isr` value in the brokers configuration)." />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="97" />
-        <entry key="CHINESE_SIMPLIFIED" value="69" />
-        <entry key="ENGLISH" value="167" />
+        <entry key="CHINESE_SIMPLIFIED" value="70" />
+        <entry key="ENGLISH" value="168" />
       </map>
     </option>
   </component>
