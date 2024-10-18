@@ -78,6 +78,7 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="Read reads one record (a slice of fields) from r. If the record has an unexpected number of fields, Read returns the record along with the error [ErrFieldCount]. If the record contains a field that cannot be parsed, Read returns a partial record along with the parse error. The partial record contains all fields read before the error. If there is no data left to be read, Read returns nil, [io.EOF]. If [Reader.ReuseRecord] is true, the returned slice may be shared between multiple calls to Read." />
       <item value="SetOutputDirectory method sets the output directory for saving HTTP responses in a file. Resty creates one if the output directory does not exist. This setting is optional, if you plan to use the absolute path in [Request.SetOutput] and can used together. client.SetOutputDirectory(&quot;savehttpresponsehere&quot;)" />
       <item value="SetOutput method sets the output file for the current HTTP request. The current HTTP response will be saved in the given file. It is similar to the `curl -o` flag. Absolute path or relative path can be used. If it is a relative path, then the output file goes under the output directory, as mentioned in the [Client.SetOutputDirectory]. client.R(). SetOutput(&quot;UsersjeevaDownloadsReplyWithHeader-v5.1-beta.zip&quot;). Get(&quot;http:bit.ly1LouEKr&quot;) NOTE: In this scenario [Response.Body] might be nil." />
       <item value="PipeCursor is a pipe character &quot;|&quot; which appears before the input" />
@@ -127,13 +128,12 @@
       <item value="If enabled, successfully delivered messages will be returned on the Successes channel (default disabled)." />
       <item value="Generates partitioners for choosing the partition to send messages to (defaults to hashing the message key). Similar to the `partitioner.class` setting for the JVM producer." />
       <item value="RequiresConsistency indicates to the user of the partitioner whether the mapping of key-&gt;partition is consistent or not. Specifically, if a partitioner requires consistency then it must be allowed to choose from all partitions (even ones known to be unavailable), and its choice must be respected by the caller. The obvious example is the HashPartitioner." />
-      <item value="How long to wait for the cluster to settle between retries (default 100ms). Similar to the `retry.backoff.ms` setting of the JVM producer." />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="97" />
-        <entry key="CHINESE_SIMPLIFIED" value="71" />
-        <entry key="ENGLISH" value="169" />
+        <entry key="CHINESE_SIMPLIFIED" value="72" />
+        <entry key="ENGLISH" value="170" />
       </map>
     </option>
   </component>
