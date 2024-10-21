@@ -70,7 +70,7 @@
     <option name="keepFormat" value="true" />
   </component>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1728970184491" />
+    <option name="lastTrimTime" value="1729479835281" />
   </component>
   <component name="Translation.Settings">
     <option name="primaryLanguage" value="CHINESE" />
@@ -78,6 +78,8 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="wall and ext encode the wall time seconds, wall time nanoseconds, and optional monotonic clock reading in nanoseconds. From high to low bit position, wall encodes a 1-bit flag (hasMonotonic), a 33-bit seconds field, and a 30-bit wall time nanoseconds field. The nanoseconds field is in the range [0, 999999999]. If the hasMonotonic bit is 0, then the 33-bit field must be zero and the full signed 64-bit wall seconds since Jan 1 year 1 is stored in ext. If the hasMonotonic bit is 1, then the 33-bit field holds a 33-bit unsigned wall seconds since Jan 1 year 1885, and ext holds a signed 64-bit monotonic clock reading, nanoseconds since process start." />
+      <item value="Unix returns the local Time corresponding to the given Unix time, sec seconds and nsec nanoseconds since January 1, 1970 UTC. It is valid to pass nsec outside the range [0, 999999999]. Not all sec values have a corresponding time value. One such value is 1&lt;&lt;63-1 (the largest int64 value)." />
       <item value="Acquire" />
       <item value="Read reads one record (a slice of fields) from r. If the record has an unexpected number of fields, Read returns the record along with the error [ErrFieldCount]. If the record contains a field that cannot be parsed, Read returns a partial record along with the parse error. The partial record contains all fields read before the error. If there is no data left to be read, Read returns nil, [io.EOF]. If [Reader.ReuseRecord] is true, the returned slice may be shared between multiple calls to Read." />
       <item value="SetOutputDirectory method sets the output directory for saving HTTP responses in a file. Resty creates one if the output directory does not exist. This setting is optional, if you plan to use the absolute path in [Request.SetOutput] and can used together. client.SetOutputDirectory(&quot;savehttpresponsehere&quot;)" />
@@ -126,14 +128,12 @@
       <item value="CompressionLevelDefault is the constant to use in CompressionLevel to have the default compression level for any codec. The value is picked that we don't use any existing compression levels." />
       <item value="Bit 3 set for &quot;LogAppend&quot; timestamps" />
       <item value="The lowest 3 bits contain the compression codec used for the message" />
-      <item value="If enabled, successfully delivered messages will be returned on the Successes channel (default disabled)." />
-      <item value="Generates partitioners for choosing the partition to send messages to (defaults to hashing the message key). Similar to the `partitioner.class` setting for the JVM producer." />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="97" />
-        <entry key="CHINESE_SIMPLIFIED" value="72" />
-        <entry key="ENGLISH" value="170" />
+        <entry key="CHINESE_SIMPLIFIED" value="74" />
+        <entry key="ENGLISH" value="172" />
       </map>
     </option>
   </component>
