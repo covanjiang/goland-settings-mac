@@ -45,6 +45,7 @@
       <w>toutiao</w>
       <w>ulink</w>
       <w>weixin</w>
+      <w>yyyymmdd</w>
       <w>zrangebyscore</w>
       <w>zrem</w>
       <w>zremrangebyscore</w>
