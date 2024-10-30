@@ -70,7 +70,7 @@
     <option name="keepFormat" value="true" />
   </component>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1729479835281" />
+    <option name="lastTrimTime" value="1730274075477" />
   </component>
   <component name="Translation.Settings">
     <option name="primaryLanguage" value="CHINESE" />
@@ -78,6 +78,7 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="MEDIUMTEXT" />
       <item value="queries a single column from a model, returning in the slice dest. E.g.:" />
       <item value="wall and ext encode the wall time seconds, wall time nanoseconds, and optional monotonic clock reading in nanoseconds. From high to low bit position, wall encodes a 1-bit flag (hasMonotonic), a 33-bit seconds field, and a 30-bit wall time nanoseconds field. The nanoseconds field is in the range [0, 999999999]. If the hasMonotonic bit is 0, then the 33-bit field must be zero and the full signed 64-bit wall seconds since Jan 1 year 1 is stored in ext. If the hasMonotonic bit is 1, then the 33-bit field holds a 33-bit unsigned wall seconds since Jan 1 year 1885, and ext holds a signed 64-bit monotonic clock reading, nanoseconds since process start." />
       <item value="Unix returns the local Time corresponding to the given Unix time, sec seconds and nsec nanoseconds since January 1, 1970 UTC. It is valid to pass nsec outside the range [0, 999999999]. Not all sec values have a corresponding time value. One such value is 1&lt;&lt;63-1 (the largest int64 value)." />
@@ -127,7 +128,6 @@
       <item value="The level of compression to use on messages. The meaning depends on the actual compression type used and defaults to default compression level for the codec." />
       <item value="The type of compression to use on messages (defaults to no compression). Similar to `compression.codec` setting of the JVM producer." />
       <item value="CompressionLevelDefault is the constant to use in CompressionLevel to have the default compression level for any codec. The value is picked that we don't use any existing compression levels." />
-      <item value="Bit 3 set for &quot;LogAppend&quot; timestamps" />
     </histories>
     <option name="languageScores">
       <map>
