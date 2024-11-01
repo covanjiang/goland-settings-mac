@@ -78,6 +78,8 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="Top-level convenience functions globalRand is the source of random numbers for the top-level convenience functions." />
+      <item value="Read is a helper function that calls Reader.Read using io.ReadFull. On return, n == len(b) if and only if err == nil." />
       <item value="MEDIUMTEXT" />
       <item value="queries a single column from a model, returning in the slice dest. E.g.:" />
       <item value="wall and ext encode the wall time seconds, wall time nanoseconds, and optional monotonic clock reading in nanoseconds. From high to low bit position, wall encodes a 1-bit flag (hasMonotonic), a 33-bit seconds field, and a 30-bit wall time nanoseconds field. The nanoseconds field is in the range [0, 999999999]. If the hasMonotonic bit is 0, then the 33-bit field must be zero and the full signed 64-bit wall seconds since Jan 1 year 1 is stored in ext. If the hasMonotonic bit is 1, then the 33-bit field holds a 33-bit unsigned wall seconds since Jan 1 year 1885, and ext holds a signed 64-bit monotonic clock reading, nanoseconds since process start." />
@@ -126,14 +128,12 @@
       <item value="How many outstanding requests a connection is allowed to have before sending on it blocks (default 5). Throughput can improve but message ordering is not guaranteed if Producer.Idempotent is disabled, see: https:kafka.apache.orgprotocolprotocol_network https:kafka.apache.org28documentation.htmlproducerconfigs_max.in.flight.requests.per.connection" />
       <item value="If enabled, the producer will ensure that exactly one copy of each message is written." />
       <item value="The level of compression to use on messages. The meaning depends on the actual compression type used and defaults to default compression level for the codec." />
-      <item value="The type of compression to use on messages (defaults to no compression). Similar to `compression.codec` setting of the JVM producer." />
-      <item value="CompressionLevelDefault is the constant to use in CompressionLevel to have the default compression level for any codec. The value is picked that we don't use any existing compression levels." />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="97" />
-        <entry key="CHINESE_SIMPLIFIED" value="75" />
-        <entry key="ENGLISH" value="173" />
+        <entry key="CHINESE_SIMPLIFIED" value="77" />
+        <entry key="ENGLISH" value="175" />
       </map>
     </option>
   </component>
