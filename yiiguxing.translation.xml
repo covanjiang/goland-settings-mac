@@ -70,7 +70,7 @@
     <option name="keepFormat" value="true" />
   </component>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1731391451998" />
+    <option name="lastTrimTime" value="1732172372879" />
   </component>
   <component name="Translation.Settings">
     <option name="primaryLanguage" value="CHINESE" />
@@ -78,6 +78,10 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="set to 'true' when you know for certain your server uses 'ROW' binlog_format. gh-ost is unable to tell, event after reading binlog_format, whether the replication process does indeed use 'ROW', and restarts replication to be certain RBR setting is applied. Such operation requires SUPER privileges which you might not have. Setting this flag avoids restarting replication and you can proceed to use gh-ost without SUPER privileges" />
+      <item value="let this tool automatically switch binary log format to 'ROW' on the replica, if needed. The format will NOT be switched back. I'm too scared to do that, and wish to protect you if you happen to execute another migration while this one is running" />
+      <item value="ExecNoPrepare executes given query using given args on given DB, without using prepared statements." />
+      <item value="restartReplication is required so that we are _certain_ the binlog format and row image settings have actually been applied to the replication thread. It is entirely possible, for example, that the replication is using 'STATEMENT' binlog format even as the variable says 'ROW'" />
       <item value="MaxConnsPerHost optionally limits the total number of connections per host, including connections in the dialing, active, and idle states. On limit violation, dials will block. Zero means no limit." />
       <item value="Timeout specifies a time limit for requests made by this Client. The timeout includes connection time, any redirects, and reading the response body. The timer remains running after Get, Head, Post, or Do return and will interrupt reading of the Response.Body. A Timeout of zero means no timeout. The Client cancels requests to the underlying Transport as if the Request's Context ended. For compatibility, the Client will also use the deprecated CancelRequest method on Transport if found. New RoundTripper implementations should use the Request's Context for cancellation instead of implementing CancelRequest." />
       <item value="The maximum permitted size of a message (defaults to 1000000). Should be set equal to or smaller than the broker's `message.max.bytes`." />
@@ -124,16 +128,12 @@
       <item value="AsyncClose triggers a shutdown of the producer. The shutdown has completed when both the Errors and Successes channels have been closed. When calling AsyncClose, you must continue to read from those channels in order to drain the results of any messages in flight." />
       <item value="Errors is the error output channel back to the user. You MUST read from this channel or the Producer will deadlock when the channel is full. Alternatively, you can set Producer.Return.Errors in your config to false, which prevents errors to be returned." />
       <item value="Successes is the success output channel back to the user when Return.Successes is enabled. If Return.Successes is true, you MUST read from this channel or the Producer will deadlock. It is suggested that you send and read messages together in a single select statement." />
-      <item value="highWatermark tracks the &quot;current&quot; retry level, which is the only one where we actually let messages through, all other messages get buffered in retryState[msg.retries].buf to preserve ordering retryState[msg.retries].expectChaser simply tracks whether we've seen a fin message for a given level (and therefore whether our buffer is complete and safe to flush)" />
-      <item value="Called to compute backoff time dynamically. Useful for implementing more sophisticated backoff strategies. This takes precedence over `Backoff` if set." />
-      <item value="The best-effort frequency of flushes. Equivalent to `queue.buffering.max.ms` setting of JVM producer." />
-      <item value="The best-effort number of bytes needed to trigger a flush. Use the global sarama.MaxRequestSize to set a hard upper limit." />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="97" />
-        <entry key="CHINESE_SIMPLIFIED" value="80" />
-        <entry key="ENGLISH" value="178" />
+        <entry key="CHINESE_SIMPLIFIED" value="84" />
+        <entry key="ENGLISH" value="182" />
       </map>
     </option>
   </component>
