@@ -78,6 +78,7 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="ReleaseLock releases a distributed lock in Redis. It ensures that the lock is only released by the owner who acquired it." />
       <item value="set to 'true' when you know for certain your server uses 'ROW' binlog_format. gh-ost is unable to tell, event after reading binlog_format, whether the replication process does indeed use 'ROW', and restarts replication to be certain RBR setting is applied. Such operation requires SUPER privileges which you might not have. Setting this flag avoids restarting replication and you can proceed to use gh-ost without SUPER privileges" />
       <item value="let this tool automatically switch binary log format to 'ROW' on the replica, if needed. The format will NOT be switched back. I'm too scared to do that, and wish to protect you if you happen to execute another migration while this one is running" />
       <item value="ExecNoPrepare executes given query using given args on given DB, without using prepared statements." />
@@ -127,13 +128,12 @@
       <item value="Close shuts down the producer and waits for any buffered messages to be flushed. You must call this function before a producer object passes out of scope, as it may otherwise leak memory. You must call this before process shutting down, or you may lose messages. You must call this before calling Close on the underlying client." />
       <item value="AsyncClose triggers a shutdown of the producer. The shutdown has completed when both the Errors and Successes channels have been closed. When calling AsyncClose, you must continue to read from those channels in order to drain the results of any messages in flight." />
       <item value="Errors is the error output channel back to the user. You MUST read from this channel or the Producer will deadlock when the channel is full. Alternatively, you can set Producer.Return.Errors in your config to false, which prevents errors to be returned." />
-      <item value="Successes is the success output channel back to the user when Return.Successes is enabled. If Return.Successes is true, you MUST read from this channel or the Producer will deadlock. It is suggested that you send and read messages together in a single select statement." />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="97" />
-        <entry key="CHINESE_SIMPLIFIED" value="84" />
-        <entry key="ENGLISH" value="182" />
+        <entry key="CHINESE_SIMPLIFIED" value="86" />
+        <entry key="ENGLISH" value="184" />
       </map>
     </option>
   </component>
