@@ -78,6 +78,7 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="SCRAMClientGeneratorFunc is a generator of a user provided implementation of a SCRAM client used to perform the SCRAM exchange with the server." />
       <item value="SASL based authentication with broker. While there are multiple SASL authentication methods the current implementation is limited to plaintext (SASLPLAIN) authentication SASL struct { Whether or not to use SASL authentication when connecting to the broker (defaults to false). Enable bool SASLMechanism is the name of the enabled SASL mechanism. Possible values: OAUTHBEARER, PLAIN (defaults to PLAIN). Mechanism SASLMechanism Version is the SASL Protocol Version to use Kafka &gt; 1.x should use V1, except on Azure EventHub which use V0 Version int16 Whether or not to send the Kafka SASL handshake first if enabled (defaults to true). You should only set this to false if you're using a non-Kafka SASL proxy. Handshake bool AuthIdentity is an (optional) authorization identity (authzid) to use for SASLPLAIN authentication (if different from User) when an authenticated user is permitted to act as the presented alternative user. See RFC4616 for details. AuthIdentity string User is the authentication identity (authcid) to present for SASLPLAIN or SASLSCRAM authentication User string Password for SASLPLAIN authentication Password string authz id used for SASLSCRAM authentication SCRAMAuthzID string SCRAMClientGeneratorFunc is a generator of a user provided implementation of a SCRAM client used to perform the SCRAM exchange with the server. SCRAMClientGeneratorFunc func() SCRAMClient TokenProvider is a user-defined callback for generating access tokens for SASLOAUTHBEARER auth. See the AccessTokenProvider interface docs for proper implementation guidelines. TokenProvider AccessTokenProvider GSSAPI GSSAPIConfig }" />
       <item value="SASL based authentication with broker. While there are multiple SASL authentication methods the current implementation is limited to plaintext (SASLPLAIN) authentication" />
       <item value="ReleaseLock releases a distributed lock in Redis. It ensures that the lock is only released by the owner who acquired it." />
@@ -127,13 +128,12 @@
       <item value="The maximum amount of time the broker will wait for Consumer.Fetch.Min bytes to become available before it returns fewer than that anyways. The default is 250ms, since 0 causes the consumer to spin when no events are available. 100-500ms is a reasonable range for most cases. Kafka only supports precision up to milliseconds; nanoseconds will be truncated. Equivalent to the JVM's `fetch.max.wait.ms`." />
       <item value="How long to wait after a failing to read from a partition before trying again (default 2s)." />
       <item value="IsolationLevel support 2 mode: - use `ReadUncommitted` (default) to consume and return all messages in message channel - use `ReadCommitted` to hide messages that are part of an aborted transaction" />
-      <item value="Close shuts down the producer and waits for any buffered messages to be flushed. You must call this function before a producer object passes out of scope, as it may otherwise leak memory. You must call this before process shutting down, or you may lose messages. You must call this before calling Close on the underlying client." />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="97" />
-        <entry key="CHINESE_SIMPLIFIED" value="89" />
-        <entry key="ENGLISH" value="187" />
+        <entry key="CHINESE_SIMPLIFIED" value="90" />
+        <entry key="ENGLISH" value="188" />
       </map>
     </option>
   </component>
