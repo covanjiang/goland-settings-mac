@@ -78,6 +78,7 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="IsConfirm makes the prompt ask for a yes or no ([YN]) question rather than request an input. When set, most properties related to input will be ignored." />
       <item value="SCRAMClientGeneratorFunc is a generator of a user provided implementation of a SCRAM client used to perform the SCRAM exchange with the server." />
       <item value="SASL based authentication with broker. While there are multiple SASL authentication methods the current implementation is limited to plaintext (SASLPLAIN) authentication SASL struct { Whether or not to use SASL authentication when connecting to the broker (defaults to false). Enable bool SASLMechanism is the name of the enabled SASL mechanism. Possible values: OAUTHBEARER, PLAIN (defaults to PLAIN). Mechanism SASLMechanism Version is the SASL Protocol Version to use Kafka &gt; 1.x should use V1, except on Azure EventHub which use V0 Version int16 Whether or not to send the Kafka SASL handshake first if enabled (defaults to true). You should only set this to false if you're using a non-Kafka SASL proxy. Handshake bool AuthIdentity is an (optional) authorization identity (authzid) to use for SASLPLAIN authentication (if different from User) when an authenticated user is permitted to act as the presented alternative user. See RFC4616 for details. AuthIdentity string User is the authentication identity (authcid) to present for SASLPLAIN or SASLSCRAM authentication User string Password for SASLPLAIN authentication Password string authz id used for SASLSCRAM authentication SCRAMAuthzID string SCRAMClientGeneratorFunc is a generator of a user provided implementation of a SCRAM client used to perform the SCRAM exchange with the server. SCRAMClientGeneratorFunc func() SCRAMClient TokenProvider is a user-defined callback for generating access tokens for SASLOAUTHBEARER auth. See the AccessTokenProvider interface docs for proper implementation guidelines. TokenProvider AccessTokenProvider GSSAPI GSSAPIConfig }" />
       <item value="SASL based authentication with broker. While there are multiple SASL authentication methods the current implementation is limited to plaintext (SASLPLAIN) authentication" />
@@ -105,7 +106,6 @@
       <item value="DefaultCursor is a big square block character. Obscures whatever was" />
       <item value="the Pointer defines how to render the cursor." />
       <item value="IsVimMode enables vi-like movements (hjkl) and editing." />
-      <item value="IsConfirm makes the prompt ask for a yes or no ([YN]) question rather than request an input. When set, most properties related to input will be ignored." />
       <item value="Templates can be used to customize the prompt output. If nil is passed, the default templates are used. See the PromptTemplates docs for more info." />
       <item value="HideEntered sets whether to hide the text after the user has pressed enter." />
       <item value="Mask is an optional rune that sets which character to display instead of the entered characters. This allows hiding private information like passwords." />
@@ -132,8 +132,8 @@
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="97" />
-        <entry key="CHINESE_SIMPLIFIED" value="90" />
-        <entry key="ENGLISH" value="188" />
+        <entry key="CHINESE_SIMPLIFIED" value="91" />
+        <entry key="ENGLISH" value="189" />
       </map>
     </option>
   </component>
