@@ -78,6 +78,8 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="SASL based authentication with broker. While there are multiple SASL authentication methods the current implementation is limited to plaintext (SASLPLAIN) authentication SASL struct { Whether or not to use SASL authentication when connecting to the broker (defaults to false). Enable bool SASLMechanism is the name of the enabled SASL mechanism. Possible values: OAUTHBEARER, PLAIN (defaults to PLAIN). Mechanism SASLMechanism Version is the SASL Protocol Version to use Kafka &gt; 1.x should use V1, except on Azure EventHub which use V0 Version int16 Whether or not to send the Kafka SASL handshake first if enabled (defaults to true). You should only set this to false if you're using a non-Kafka SASL proxy. Handshake bool AuthIdentity is an (optional) authorization identity (authzid) to use for SASLPLAIN authentication (if different from User) when an authenticated user is permitted to act as the presented alternative user. See RFC4616 for details. AuthIdentity string User is the authentication identity (authcid) to present for SASLPLAIN or SASLSCRAM authentication User string Password for SASLPLAIN authentication Password string authz id used for SASLSCRAM authentication SCRAMAuthzID string SCRAMClientGeneratorFunc is a generator of a user provided implementation of a SCRAM client used to perform the SCRAM exchange with the server. SCRAMClientGeneratorFunc func() SCRAMClient TokenProvider is a user-defined callback for generating access tokens for SASLOAUTHBEARER auth. See the AccessTokenProvider interface docs for proper implementation guidelines. TokenProvider AccessTokenProvider GSSAPI GSSAPIConfig }" />
+      <item value="SASL based authentication with broker. While there are multiple SASL authentication methods the current implementation is limited to plaintext (SASLPLAIN) authentication" />
       <item value="ReleaseLock releases a distributed lock in Redis. It ensures that the lock is only released by the owner who acquired it." />
       <item value="set to 'true' when you know for certain your server uses 'ROW' binlog_format. gh-ost is unable to tell, event after reading binlog_format, whether the replication process does indeed use 'ROW', and restarts replication to be certain RBR setting is applied. Such operation requires SUPER privileges which you might not have. Setting this flag avoids restarting replication and you can proceed to use gh-ost without SUPER privileges" />
       <item value="let this tool automatically switch binary log format to 'ROW' on the replica, if needed. The format will NOT be switched back. I'm too scared to do that, and wish to protect you if you happen to execute another migration while this one is running" />
@@ -126,14 +128,12 @@
       <item value="How long to wait after a failing to read from a partition before trying again (default 2s)." />
       <item value="IsolationLevel support 2 mode: - use `ReadUncommitted` (default) to consume and return all messages in message channel - use `ReadCommitted` to hide messages that are part of an aborted transaction" />
       <item value="Close shuts down the producer and waits for any buffered messages to be flushed. You must call this function before a producer object passes out of scope, as it may otherwise leak memory. You must call this before process shutting down, or you may lose messages. You must call this before calling Close on the underlying client." />
-      <item value="AsyncClose triggers a shutdown of the producer. The shutdown has completed when both the Errors and Successes channels have been closed. When calling AsyncClose, you must continue to read from those channels in order to drain the results of any messages in flight." />
-      <item value="Errors is the error output channel back to the user. You MUST read from this channel or the Producer will deadlock when the channel is full. Alternatively, you can set Producer.Return.Errors in your config to false, which prevents errors to be returned." />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="97" />
-        <entry key="CHINESE_SIMPLIFIED" value="87" />
-        <entry key="ENGLISH" value="185" />
+        <entry key="CHINESE_SIMPLIFIED" value="89" />
+        <entry key="ENGLISH" value="187" />
       </map>
     </option>
   </component>
