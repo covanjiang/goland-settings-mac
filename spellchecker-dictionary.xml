@@ -37,6 +37,7 @@
       <w>mapstructure</w>
       <w>mdmid</w>
       <w>mediahat</w>
+      <w>oneof</w>
       <w>ormer</w>
       <w>preauth</w>
       <w>preg</w>
