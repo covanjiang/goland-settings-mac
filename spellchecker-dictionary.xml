@@ -51,6 +51,7 @@
       <w>tonumber</w>
       <w>toutiao</w>
       <w>ulink</w>
+      <w>untts</w>
       <w>weixin</w>
       <w>yyyymmdd</w>
       <w>zrangebyscore</w>
