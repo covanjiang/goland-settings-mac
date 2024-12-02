@@ -78,6 +78,8 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="NextOffset returns the next offset that should be consumed for the managed partition, accompanied by metadata which can be used to reconstruct the state of the partition consumer when it resumes. NextOffset() will return `config.Consumer.Offsets.Initial` and an empty metadata string if no offset was committed for this partition yet." />
+      <item value="MarkOffset marks the provided offset, alongside a metadata string that represents the state of the partition consumer at that point in time. The metadata string can be used by another consumer to restore that state, so it can resume consumption. To follow upstream conventions, you are expected to mark the offset of the next message to read, not the last message read. Thus, when calling `MarkOffset` you should typically add one to the offset of the last consumed message. Note: calling MarkOffset does not necessarily commit the offset to the backend store immediately for efficiency reasons, and it may never be committed if your application crashes. This means that you may end up processing the same message twice, and your processing should ideally be idempotent." />
       <item value="score" />
       <item value="Split slices s into all substrings separated by sep and returns a slice of the substrings between those separators. If s does not contain sep and sep is not empty, Split returns a slice of length 1 whose only element is s. If sep is empty, Split splits after each UTF-8 sequence. If both s and sep are empty, Split returns an empty slice. It is equivalent to [SplitN] with a count of -1. To split around the first instance of a separator, see [Cut]." />
       <item value="IsConfirm makes the prompt ask for a yes or no ([YN]) question rather than request an input. When set, most properties related to input will be ignored." />
@@ -126,14 +128,12 @@
       <item value="ConsumerGroup is responsible for dividing up processing of topics and partitions over a collection of processes (the members of the consumer group)." />
       <item value="A rack identifier for this client. This can be any string value which indicates where this client is physically located. It corresponds with the broker config 'broker.rack'" />
       <item value="The maximum number of message bytes to fetch from the broker in a single request. Messages larger than this will return ErrMessageTooLarge and will not be consumable, so you must be sure this is at least as large as your largest message. Defaults to 0 (no limit). Similar to the JVM's `fetch.message.max.bytes`. The global `sarama.MaxResponseSize` still applies." />
-      <item value="The default number of message bytes to fetch from the broker in each request (default 1MB). This should be larger than the majority of your messages, or else the consumer will spend a lot of time negotiating sizes and not actually consuming. Similar to the JVM's `fetch.message.max.bytes`." />
-      <item value="The maximum amount of time the broker will wait for Consumer.Fetch.Min bytes to become available before it returns fewer than that anyways. The default is 250ms, since 0 causes the consumer to spin when no events are available. 100-500ms is a reasonable range for most cases. Kafka only supports precision up to milliseconds; nanoseconds will be truncated. Equivalent to the JVM's `fetch.max.wait.ms`." />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="97" />
-        <entry key="CHINESE_SIMPLIFIED" value="94" />
-        <entry key="ENGLISH" value="192" />
+        <entry key="CHINESE_SIMPLIFIED" value="96" />
+        <entry key="ENGLISH" value="194" />
       </map>
     </option>
   </component>
