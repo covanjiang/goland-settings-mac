@@ -78,6 +78,7 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="convertNumber converts the number literal s to a float64 or a Number depending on the setting of d.useNumber." />
       <item value="Don't save err from unmarshal into dec.err: the connection is still usable since we read a complete JSON object from it before the error happened." />
       <item value="UseNumber causes the Decoder to unmarshal a number into an interface{} as a [Number] instead of as a float64." />
       <item value="SkipPortValidation allows skipping the port validation in `ValidateConnection` This is useful when connecting to a MySQL instance where the external port may not match the internal port." />
@@ -127,13 +128,12 @@
       <item value="NewConsumerGroupFromClient creates a new consumer group using the given client. It is still necessary to call Close() on the underlying client when shutting down this consumer. PLEASE NOTE: consumer groups can only re-use but not share clients." />
       <item value="Pause suspends fetching from the requested partitions. Future calls to the broker will not return any records from these partitions until they have been resumed using Resume()ResumeAll(). Note that this method does not affect partition subscription. In particular, it does not cause a group rebalance when automatic assignment is used." />
       <item value="Close stops the ConsumerGroup and detaches any running sessions. It is required to call this function before the object passes out of scope, as it will otherwise leak memory." />
-      <item value="Errors returns a read channel of errors that occurred during the consumer life-cycle. By default, errors are logged and not returned over this channel. If you want to implement any custom error handling, set your config's Consumer.Return.Errors setting to true, and read from this channel." />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="97" />
-        <entry key="CHINESE_SIMPLIFIED" value="100" />
-        <entry key="ENGLISH" value="198" />
+        <entry key="CHINESE_SIMPLIFIED" value="101" />
+        <entry key="ENGLISH" value="199" />
       </map>
     </option>
   </component>
