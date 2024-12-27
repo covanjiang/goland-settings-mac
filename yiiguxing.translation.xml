@@ -78,6 +78,7 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="Len returns the number of bytes of the unread portion of the buffer;" />
       <item value="EE t.dt As dt ,t.hr As HouK,t.uld.As account_10,t.exchange_10 As exchange_1d,cam.dsp_campalgn_10 AJ dSp_campa1gn_10， SUM（t.settled_ad_price） AS income,SUM（t.media_price）AS Cost,SUM（t.imp）AS imp， SUM（ t.CLk ）AS CLK, SUM（ t.act ）AS act,SUM（payment） FROM rtb_stats_hourly_view t LEFT JOIN rtb_campaign cam ON_cam.id = t.pid WHERE t.dt = 20240924 AND t.uid= 106273 GROUP BY t.dt,t.hr,t.uid,t.exchange_id；" />
       <item value="convertNumber converts the number literal s to a float64 or a Number depending on the setting of d.useNumber." />
       <item value="Don't save err from unmarshal into dec.err: the connection is still usable since we read a complete JSON object from it before the error happened." />
@@ -127,13 +128,12 @@
       <item value="Do not move the code below to a goroutine. The `ConsumeClaim` itself is called within a goroutine, see: https:github.comIBMsaramablobmainconsumer_group.goL27-L29" />
       <item value="only the leader needs to check whether there are newly-added partitions in order to trigger a rebalance" />
       <item value="NewConsumerGroupFromClient creates a new consumer group using the given client. It is still necessary to call Close() on the underlying client when shutting down this consumer. PLEASE NOTE: consumer groups can only re-use but not share clients." />
-      <item value="Pause suspends fetching from the requested partitions. Future calls to the broker will not return any records from these partitions until they have been resumed using Resume()ResumeAll(). Note that this method does not affect partition subscription. In particular, it does not cause a group rebalance when automatic assignment is used." />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="97" />
-        <entry key="CHINESE_SIMPLIFIED" value="102" />
-        <entry key="ENGLISH" value="200" />
+        <entry key="CHINESE_SIMPLIFIED" value="103" />
+        <entry key="ENGLISH" value="201" />
       </map>
     </option>
   </component>
