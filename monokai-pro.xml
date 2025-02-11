@@ -1,7 +1,6 @@
 <application>
   <component name="MonokaiProConfig">
-    <option name="hasFileStatusColors" value="false" />
-    <option name="hasMonokaiProIcons" value="false" />
+    <option name="hasTopLevelIcons" value="false" />
     <option name="hasVisibleFolderIcons" value="true" />
     <option name="lastVersionUpdateShown" value="2.0.1" />
     <option name="themeFolder" value="monokai-pro" />
