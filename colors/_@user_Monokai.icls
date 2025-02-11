@@ -1,0 +1,56 @@
+<scheme name="_@user_Monokai" version="142" parent_scheme="Darcula">
+  <metaInfo>
+    <property name="ide">GoLand</property>
+    <property name="ideVersion">2024.3.2.1.0.0</property>
+    <property name="originalScheme">Monokai</property>
+    <property name="partialSave">true</property>
+    <property name="pluginId">com.intellij.plugins.monokai.colorscheme</property>
+  </metaInfo>
+  <attributes>
+    <option name="DIFF_CONFLICT">
+      <value>
+        <option name="FOREGROUND" value="521f1f" />
+        <option name="BACKGROUND" value="ab1717" />
+        <option name="ERROR_STRIPE_COLOR" value="8f5247" />
+      </value>
+    </option>
+    <option name="DIFF_DELETED">
+      <value>
+        <option name="FOREGROUND" value="343632" />
+        <option name="BACKGROUND" value="484a4a" />
+        <option name="ERROR_STRIPE_COLOR" value="656e76" />
+      </value>
+    </option>
+    <option name="DIFF_INSERTED">
+      <value>
+        <option name="FOREGROUND" value="1a3e2f" />
+        <option name="BACKGROUND" value="66042" />
+        <option name="ERROR_STRIPE_COLOR" value="447152" />
+      </value>
+    </option>
+    <option name="DIFF_MODIFIED">
+      <value>
+        <option name="FOREGROUND" value="293e4d" />
+        <option name="BACKGROUND" value="2d608e" />
+        <option name="ERROR_STRIPE_COLOR" value="43698d" />
+      </value>
+    </option>
+    <option name="HTML_CODE">
+      <value />
+    </option>
+    <option name="KOTLIN_FUNCTION_LITERAL_BRACES_AND_ARROW">
+      <value>
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="KOTLIN_LABEL">
+      <value />
+    </option>
+    <option name="MATCHED_BRACE_ATTRIBUTES">
+      <value>
+        <option name="BACKGROUND" value="3b514d" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+  </attributes>
+</scheme>

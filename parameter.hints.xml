@@ -1,5 +1,7 @@
 <application>
   <component name="ParameterNameHintsSettings">
+    <option id="go.return.parameters" value="false" />
+    <option id="go.struct.unnamed.struct.fields" value="false" />
     <disabledLanguages>
       <language id="go" />
     </disabledLanguages>
