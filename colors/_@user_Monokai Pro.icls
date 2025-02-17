@@ -27,6 +27,20 @@
   <option name="CONSOLE_LINE_SPACING" value="1.4" />
   <colors>
     <option name="CARET_ROW_COLOR" value="514f52" />
+    <option name="FILESTATUS_DELETED" value="727072" />
+    <option name="FILESTATUS_HIJACKED" value="ffd866" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="727072" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="ab7967" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="fc9867" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="fc9867" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="fc9867" />
+    <option name="FILESTATUS_IGNORE.PROJECT_VIEW.IGNORED" value="ab7967" />
+    <option name="FILESTATUS_MERGED" value="ab9df2" />
+    <option name="FILESTATUS_MODIFIED" value="78dce8" />
+    <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="78dce8" />
+    <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="78dce8" />
+    <option name="FILESTATUS_UNKNOWN" value="f59762" />
+    <option name="FILESTATUS_addedOutside" value="a9dc76" />
     <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="ffffff" />
     <option name="METHOD_SEPARATORS_COLOR" value="797878" />
     <option name="MODIFIED_TAB_ICON" value="ffe600" />
