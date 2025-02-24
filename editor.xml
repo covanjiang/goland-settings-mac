@@ -56,6 +56,9 @@
   <component name="EditorSettings">
     <option name="languageBreadcrumbsMap">
       <map>
+        <entry key="CSS" value="true" />
+        <entry key="HTML" value="true" />
+        <entry key="JSON" value="true" />
         <entry key="Markdown" value="true" />
         <entry key="SQL" value="true" />
       </map>
