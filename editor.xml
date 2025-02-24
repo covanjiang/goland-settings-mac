@@ -61,6 +61,8 @@
         <entry key="JSON" value="true" />
         <entry key="Markdown" value="true" />
         <entry key="SQL" value="true" />
+        <entry key="XML" value="true" />
+        <entry key="yaml" value="true" />
       </map>
     </option>
     <option name="USE_SOFT_WRAPS" value="MAIN_EDITOR" />
