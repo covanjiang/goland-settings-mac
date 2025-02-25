@@ -70,7 +70,7 @@
     <option name="keepFormat" value="true" />
   </component>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1739861371914" />
+    <option name="lastTrimTime" value="1740473664935" />
   </component>
   <component name="Translation.Settings">
     <option name="primaryLanguage" value="CHINESE" />
@@ -78,6 +78,7 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="Ifnull(Round(Sum Ifnull(Round(Sum" />
       <item value="Deprecated" />
       <item value="GENCY" />
       <item value="Set sets the header entries associated with key to the single element value. It replaces any existing values associated with key. The key is case insensitive; it is canonicalized by [textproto.CanonicalMIMEHeaderKey]. To use non-canonical keys, assign to the map directly." />
@@ -127,13 +128,12 @@
       <item value="Mask is an optional rune that sets which character to display instead of the entered characters. This allows hiding private information like passwords." />
       <item value="Validate is an optional function that fill be used against the entered value in the prompt to validate it." />
       <item value="AllowEdit lets the user edit the default value. If false, any key press other than &lt;Enter&gt; automatically clears the default value." />
-      <item value="WithCancel returns a copy of parent with a new Done channel. The returned context's Done channel is closed when the returned cancel function is called or when the parent context's Done channel is closed, whichever happens first. Canceling this context releases resources associated with it, so code should call cancel as soon as the operations running in this [Context] complete." />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="97" />
-        <entry key="CHINESE_SIMPLIFIED" value="107" />
-        <entry key="ENGLISH" value="205" />
+        <entry key="CHINESE_SIMPLIFIED" value="108" />
+        <entry key="ENGLISH" value="206" />
       </map>
     </option>
   </component>
