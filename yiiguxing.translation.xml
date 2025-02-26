@@ -78,6 +78,7 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="device" />
       <item value="Ifnull(Round(Sum Ifnull(Round(Sum" />
       <item value="Deprecated" />
       <item value="GENCY" />
@@ -127,13 +128,12 @@
       <item value="HideEntered sets whether to hide the text after the user has pressed enter." />
       <item value="Mask is an optional rune that sets which character to display instead of the entered characters. This allows hiding private information like passwords." />
       <item value="Validate is an optional function that fill be used against the entered value in the prompt to validate it." />
-      <item value="AllowEdit lets the user edit the default value. If false, any key press other than &lt;Enter&gt; automatically clears the default value." />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="97" />
-        <entry key="CHINESE_SIMPLIFIED" value="108" />
-        <entry key="ENGLISH" value="206" />
+        <entry key="CHINESE_SIMPLIFIED" value="109" />
+        <entry key="ENGLISH" value="207" />
       </map>
     </option>
   </component>
