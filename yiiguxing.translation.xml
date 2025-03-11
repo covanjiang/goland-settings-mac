@@ -70,7 +70,7 @@
     <option name="keepFormat" value="true" />
   </component>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1740473664935" />
+    <option name="lastTrimTime" value="1741676484278" />
   </component>
   <component name="Translation.Settings">
     <option name="primaryLanguage" value="CHINESE" />
@@ -78,6 +78,7 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="elapsed" />
       <item value="device" />
       <item value="Ifnull(Round(Sum Ifnull(Round(Sum" />
       <item value="Deprecated" />
@@ -127,13 +128,12 @@
       <item value="Templates can be used to customize the prompt output. If nil is passed, the default templates are used. See the PromptTemplates docs for more info." />
       <item value="HideEntered sets whether to hide the text after the user has pressed enter." />
       <item value="Mask is an optional rune that sets which character to display instead of the entered characters. This allows hiding private information like passwords." />
-      <item value="Validate is an optional function that fill be used against the entered value in the prompt to validate it." />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="97" />
-        <entry key="CHINESE_SIMPLIFIED" value="109" />
-        <entry key="ENGLISH" value="207" />
+        <entry key="CHINESE_SIMPLIFIED" value="110" />
+        <entry key="ENGLISH" value="208" />
       </map>
     </option>
   </component>
