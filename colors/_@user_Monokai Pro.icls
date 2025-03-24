@@ -86,11 +86,6 @@
         <option name="ERROR_STRIPE_COLOR" value="43698d" />
       </value>
     </option>
-    <option name="EXECUTIONPOINT_ATTRIBUTES">
-      <value>
-        <option name="BACKGROUND" value="3c693c" />
-      </value>
-    </option>
     <option name="GO_BUILTIN_CONSTANT">
       <value>
         <option name="FOREGROUND" value="ff8400" />

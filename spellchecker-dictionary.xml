@@ -17,10 +17,8 @@
       <w>conns</w>
       <w>customerhat</w>
       <w>dbudp</w>
-      <w>dbudpro</w>
       <w>dbudpv</w>
       <w>dedup</w>
-      <w>devpm</w>
       <w>dmopt</w>
       <w>dmopts</w>
       <w>domob</w>
@@ -60,9 +58,7 @@
       <w>uids</w>
       <w>ulink</w>
       <w>untts</w>
-      <w>vdesk</w>
       <w>weixin</w>
-      <w>xiaoling</w>
       <w>yyyymmdd</w>
       <w>zrangebyscore</w>
       <w>zrem</w>

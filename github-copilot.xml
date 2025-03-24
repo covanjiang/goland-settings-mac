@@ -1,14 +1,10 @@
 <application>
   <component name="github-copilot">
-    <option name="screenReaderEnabled" value="true" />
     <option name="signinNotificationShown" value="true" />
     <languageAllowList>
       <map>
         <entry key="*" value="true" />
       </map>
     </languageAllowList>
-    <option name="enableScreenReader" value="true" />
-    <option name="preferredAccount" value="b950dfed-1032-42a9-82bd-28c06f273138" />
-    <option name="selectedCompletionModel" value="gpt-4o-copilot" />
   </component>
 </application>
