@@ -1,6 +1,7 @@
 <application>
   <component name="Go">
     <option name="renameCorrespondingTestOrProductionFile" value="YES" />
+    <option name="renamePackageOnDirectoryRenaming" value="YES" />
     <option name="renameSearchNonCodeForFunction" value="true" />
     <option name="renameSearchNonCodeForType" value="true" />
     <option name="renameSearchNonCodeForVariable" value="true" />
