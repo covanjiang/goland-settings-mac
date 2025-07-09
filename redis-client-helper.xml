@@ -1,0 +1,17 @@
+<application>
+  <component name="RedisClientHelper">
+    <option name="connections">
+      <list>
+        <ConnectionInfo>
+          <option name="global" value="true" />
+          <option name="group" value="开发环境" />
+          <option name="id" value="04dfb7a0-cde7-4ec5-be6c-1ab5f6e30d9d" />
+          <option name="name" value="10.0.0.211" />
+          <option name="separator" value=":" />
+          <option name="sslPublicKeyPath" value="" />
+          <option name="url" value="10.0.0.211:6395" />
+        </ConnectionInfo>
+      </list>
+    </option>
+  </component>
+</application>
