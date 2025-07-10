@@ -78,6 +78,8 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="Deposit" />
+      <item value="presale" />
       <item value="encountered" />
       <item value="third" />
       <item value="Ifnull(Round(Sum Ifnull(Round(Sum" />
@@ -126,14 +128,13 @@
       <item value="the Pointer defines how to render the cursor." />
       <item value="IsVimMode enables vi-like movements (hjkl) and editing." />
       <item value="Templates can be used to customize the prompt output. If nil is passed, the default templates are used. See the PromptTemplates docs for more info." />
-      <item value="HideEntered sets whether to hide the text after the user has pressed enter." />
-      <item value="Mask is an optional rune that sets which character to display instead of the entered characters. This allows hiding private information like passwords." />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="97" />
-        <entry key="CHINESE_SIMPLIFIED" value="110" />
-        <entry key="ENGLISH" value="208" />
+        <entry key="CHINESE_SIMPLIFIED" value="112" />
+        <entry key="ENGLISH" value="209" />
+        <entry key="SLOVENIAN" value="1" />
       </map>
     </option>
   </component>
