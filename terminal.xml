@@ -2,5 +2,6 @@
   <component name="ReworkedTerminalUsage">{}</component>
   <component name="TerminalOptionsProvider">
     <option name="myCopyOnSelection" value="true" />
+    <option name="useOptionAsMetaKey" value="true" />
   </component>
 </application>
