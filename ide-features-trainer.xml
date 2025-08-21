@@ -8,10 +8,17 @@
         <entry key="code completion for functions" value="NOT_PASSED" />
         <entry key="code_completion_for_benchmarks_bn" value="NOT_PASSED" />
         <entry key="code_completion_for_time_package" value="NOT_PASSED" />
+        <entry key="codeassistance.localhistory" value="NOT_PASSED" />
+        <entry key="codeassistance.parameterinfo" value="NOT_PASSED" />
+        <entry key="codeassistance.quickpopups" value="NOT_PASSED" />
+        <entry key="collapse" value="NOT_PASSED" />
+        <entry key="completion with tab" value="NOT_PASSED" />
         <entry key="createstructsandcreatestructfields" value="NOT_PASSED" />
         <entry key="debug function calls" value="NOT_PASSED" />
         <entry key="debug_nil_interfaces_hide_types" value="NOT_PASSED" />
+        <entry key="declaration and usages" value="NOT_PASSED" />
         <entry key="dump_goroutines" value="NOT_PASSED" />
+        <entry key="duplicate" value="NOT_PASSED" />
         <entry key="editorbasics.commentline" value="NOT_PASSED" />
         <entry key="error_string_formatting" value="NOT_PASSED" />
         <entry key="export_types" value="NOT_PASSED" />
@@ -25,7 +32,48 @@
         <entry key="git.interactiverebase" value="NOT_PASSED" />
         <entry key="git.projecthistory" value="NOT_PASSED" />
         <entry key="git.quickstart" value="NOT_PASSED" />
+        <entry key="go.basic.and.smart.completion" value="NOT_PASSED" />
+        <entry key="go.basic.completion" value="NOT_PASSED" />
+        <entry key="go.code.formatting" value="NOT_PASSED" />
+        <entry key="go.comment.line" value="NOT_PASSED" />
+        <entry key="go.context.actions" value="NOT_PASSED" />
+        <entry key="go.debug.function.calls" value="NOT_PASSED" />
+        <entry key="go.dump.goroutines" value="NOT_PASSED" />
+        <entry key="go.extract.method.refactoring.with.returns" value="NOT_PASSED" />
+        <entry key="go.extract.variable" value="NOT_PASSED" />
+        <entry key="go.file.structure" value="NOT_PASSED" />
+        <entry key="go.find.in.files" value="NOT_PASSED" />
+        <entry key="go.generating.tests.for.generics" value="NOT_PASSED" />
+        <entry key="go.generics.implement.missing.methods" value="NOT_PASSED" />
+        <entry key="go.generics.inspections" value="NOT_PASSED" />
+        <entry key="go.navigation.comments" value="NOT_PASSED" />
+        <entry key="go.navigation.internal.and.build.constraints" value="NOT_PASSED" />
         <entry key="go.onboarding" value="NOT_PASSED" />
+        <entry key="go.onboarding.tour" value="NOT_PASSED" />
+        <entry key="go.postfix.completion" value="NOT_PASSED" />
+        <entry key="go.pulse.flight recorder" value="NOT_PASSED" />
+        <entry key="go.pulse.garbage.collector" value="NOT_PASSED" />
+        <entry key="go.pulse.go.doc" value="NOT_PASSED" />
+        <entry key="go.pulse.go.version.m.json" value="NOT_PASSED" />
+        <entry key="go.pulse.go.vet" value="NOT_PASSED" />
+        <entry key="go.pulse.ignore.directive" value="NOT_PASSED" />
+        <entry key="go.pulse.json.2" value="NOT_PASSED" />
+        <entry key="go.pulse.repanic" value="NOT_PASSED" />
+        <entry key="go.pulse.root.type" value="NOT_PASSED" />
+        <entry key="go.pulse.synctest" value="NOT_PASSED" />
+        <entry key="go.pulse.testing.package.updates" value="NOT_PASSED" />
+        <entry key="go.pulse.typeassert" value="NOT_PASSED" />
+        <entry key="go.refactoring.menu.lesson.name" value="NOT_PASSED" />
+        <entry key="go.rename.refactoring" value="NOT_PASSED" />
+        <entry key="go.run.configuration" value="NOT_PASSED" />
+        <entry key="go.run.debug.playground" value="NOT_PASSED" />
+        <entry key="go.run.fuzz.testing" value="NOT_PASSED" />
+        <entry key="go.running.gofmt" value="NOT_PASSED" />
+        <entry key="go.smart.type.completion" value="NOT_PASSED" />
+        <entry key="go.support.for.table.tests" value="NOT_PASSED" />
+        <entry key="go.using.generics" value="NOT_PASSED" />
+        <entry key="go.view.hierarchies.lesson" value="NOT_PASSED" />
+        <entry key="go.working.with.json" value="NOT_PASSED" />
         <entry key="go_enable_generics_in_go_files" value="NOT_PASSED" />
         <entry key="go_navigate_to_internal_and_build_constraints" value="NOT_PASSED" />
         <entry key="go_var_check_error_postfix_template" value="NOT_PASSED" />
@@ -42,18 +90,25 @@
         <entry key="handling errors with live and postfix templates: if and rr" value="NOT_PASSED" />
         <entry key="handling_unhandled_errors" value="NOT_PASSED" />
         <entry key="implement_methods_with_todo" value="NOT_PASSED" />
+        <entry key="java.occurrences.lesson" value="NOT_PASSED" />
         <entry key="live and postfix templates: else, fori, and vars" value="NOT_PASSED" />
+        <entry key="move" value="NOT_PASSED" />
+        <entry key="multiple selections" value="NOT_PASSED" />
         <entry key="navigation from comments" value="NOT_PASSED" />
         <entry key="postfix completion with sort" value="NOT_PASSED" />
         <entry key="postfix templates (nn, panic, rr, and return)" value="NOT_PASSED" />
         <entry key="quick-fixes, refactorings, and external documentation" value="NOT_PASSED" />
+        <entry key="recent files and locations" value="NOT_PASSED" />
+        <entry key="search everywhere" value="NOT_PASSED" />
         <entry key="select" value="NOT_PASSED" />
         <entry key="smart type completion" value="NOT_PASSED" />
         <entry key="smart type completion and pointers" value="NOT_PASSED" />
         <entry key="smart type completion for type assertions and switch constructions" value="NOT_PASSED" />
+        <entry key="statement completion" value="NOT_PASSED" />
         <entry key="struct inspections" value="NOT_PASSED" />
         <entry key="support_for_table_tests" value="NOT_PASSED" />
         <entry key="support_of_go_embed" value="NOT_PASSED" />
+        <entry key="surround and unwrap" value="NOT_PASSED" />
         <entry key="unsafe_context_cancellation" value="NOT_PASSED" />
         <entry key="using live templates with types" value="NOT_PASSED" />
         <entry key="working with variadic functions" value="NOT_PASSED" />
