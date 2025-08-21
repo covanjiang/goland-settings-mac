@@ -70,7 +70,7 @@
     <option name="keepFormat" value="true" />
   </component>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1754378083361" />
+    <option name="lastTrimTime" value="1755756583105" />
   </component>
   <component name="Translation.Settings">
     <option name="primaryLanguage" value="CHINESE" />
@@ -78,6 +78,7 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="latency time" />
       <item value="Core Components 1. Consumer Framework (`internalconsumer`) - Platform-specific consumers for: Kuaishou, Microsoft, Qianchuan, Tencent, Toutiao - Common utilities shared across all consumers - Each platform has its own directory with dedicated handlers 2. Media API Integration (`internalmapi`) - HTTP clients for each advertising platform's APIs - Rate limiting and retry logic built-in - Authentication and token management per platform - Structured API response handling 3. Configuration Management (`lib`) - Viper-based configuration loading from `confapp.yml` and `confconfig.yml` - Kafka configuration in `confkafka` - Environment-specific settings and logging setup 4. Data Models (`internalmodelsudp`) - Authentication info management - Task queue definitions - Database entity mappings 5. Infrastructure Services - Redis Queue (`internalredis`) - Task queue management - Kafka Producer (`internalkafka`) - Message publishing - Feishu Integration (`internalfeishu`) - Notification system" />
       <item value="This is a UDP Consumer service that handles data consumption from multiple advertising platforms through Kafka messaging. The architecture follows a modular design with clear separation of concerns." />
       <item value="Deposit" />
@@ -127,13 +128,12 @@
       <item value="PipeCursor is a pipe character &quot;|&quot; which appears before the input" />
       <item value="BlockCursor is a cursor which highlights a character by inverting colors" />
       <item value="DefaultCursor is a big square block character. Obscures whatever was" />
-      <item value="the Pointer defines how to render the cursor." />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="97" />
-        <entry key="CHINESE_SIMPLIFIED" value="114" />
-        <entry key="ENGLISH" value="211" />
+        <entry key="CHINESE_SIMPLIFIED" value="115" />
+        <entry key="ENGLISH" value="212" />
         <entry key="SLOVENIAN" value="1" />
       </map>
     </option>
